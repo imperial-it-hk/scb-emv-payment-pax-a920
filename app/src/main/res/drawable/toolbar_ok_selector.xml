@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ /*
+  ~  * ============================================================================
+  ~  * PAX Computer Technology(Shenzhen) CO., LTD PROPRIETARY INFORMATION
+  ~  * This software is supplied under the terms of a license agreement or nondisclosure
+  ~  * agreement with PAX Computer Technology(Shenzhen) CO., LTD and may not be copied or
+  ~  * disclosed except in accordance with the terms in that agreement.
+  ~  *     Copyright (C) $YEAR-? PAX Computer Technology(Shenzhen) CO., LTD All rights reserved.
+  ~  * Description:
+  ~  * Revision History:
+  ~  * Date	             Author	                Action
+  ~  * 20181206   	     ligq           	Create/Add/Modify/Delete
+  ~  * ============================================================================
+  ~  */
+  -->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/ic_check_click_24dp" android:state_pressed="true" />
+    <item android:drawable="@drawable/ic_check_white_24dp" android:state_pressed="false" />
+</selector>

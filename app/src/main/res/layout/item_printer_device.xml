@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/printer_devices_tv"
+    android:background="@drawable/recycler_item_selector"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:gravity="center"
+    android:minHeight="48dp"
+    android:maxLines="1"
+    android:textColor="#ff000000"
+    android:textSize="16sp"
+     />

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginStart="@dimen/space_horizontal"
+    android:layout_marginEnd="@dimen/space_horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_vertical_large"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dcc_please_select_curr"
+            android:textColor="@color/color_config_item_value"
+            android:textSize="@dimen/font_size_value"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_vertical_super_large"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:padding="6dp"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/buttonDccDomesticRate"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/alert_height"
+            android:background="@color/primary"
+            android:textColor="@color/primary_text_dark"
+            android:textSize="@dimen/font_size_key"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:layout_weight="1"
+            android:layout_marginRight="4dp" />
+
+        <Button
+            android:id="@+id/buttonDccForeignRate"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/alert_height"
+            android:background="@color/primary"
+            android:textColor="@color/primary_text_dark"
+            android:textSize="@dimen/font_size_key"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="4dp"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

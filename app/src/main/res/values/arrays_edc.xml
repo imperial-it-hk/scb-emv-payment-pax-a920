@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~
+  ~  ============================================================================
+  ~  PAX Computer Technology(Shenzhen) CO., LTD PROPRIETARY INFORMATION
+  ~  This software is supplied under the terms of a license agreement or nondisclosure
+  ~  agreement with PAX Computer Technology(Shenzhen) CO., LTD and may not be copied or
+  ~  disclosed except in accordance with the terms in that agreement.
+  ~      Copyright (C) 2019 -? PAX Computer Technology(Shenzhen) CO., LTD All rights reserved.
+  ~  Description:
+  ~  Revision History:
+  ~  Date	             Author	                Action
+  ~  20190220   	     ligq           	Create/Add/Modify/Delete
+  ~  ============================================================================
+  ~
+  -->
+
+<resources>
+    <!--parameters of EDC ↓-->
+    <string-array name="config_menu_edc_title">
+        <item>@string/edc_merchant_name</item>
+        <item>@string/edc_merchant_address</item>
+        <item>@string/currency_list</item>
+        <item>@string/edc_ped_mode</item>
+        <item>@string/edc_clss_mode</item>
+        <item>@string/edc_receipt_no</item>
+        <item>@string/edc_trace_no</item>
+        <item>@string/edc_stan_no</item>
+        <item>@string/edc_enable_tip</item>
+        <item>@string/edc_enable_user_agreement</item>
+        <item>@string/edc_enable_paperless</item>
+        <item>@string/edc_smtp_host_name</item>
+        <item>@string/edc_smtp_port</item>
+        <item>@string/edc_smtp_username</item>
+        <item>@string/edc_smtp_password</item>
+        <item>@string/edc_smtp_enable_ssl</item>
+        <item>@string/edc_smtp_ssl_port</item>
+        <item>@string/edc_smtp_from</item>
+        <item>@string/edc_printer_type</item>
+        <item>@string/reset_bp60a</item>
+        <item>@string/edc_enable_save_log</item>
+        <item>@string/edc_enable_print_log</item>
+    </string-array>
+    <!--config the key for save in sp:N means has no key,can be used as button-->
+    <string-array name="config_menu_edc_key">
+        <item>@string/EDC_MERCHANT_NAME_EN</item>
+        <item>@string/EDC_MERCHANT_ADDRESS</item>
+        <item>@string/EDC_CURRENCY_LIST</item>
+        <item>@string/EDC_PED_MODE</item>
+        <item>@string/EDC_CLSS_MODE</item>
+        <item>@string/EDC_RECEIPT_NUM</item>
+        <item>@string/EDC_TRACE_NO</item>
+        <item>@string/EDC_STAN_NO</item>
+        <item>@string/EDC_SUPPORT_TIP</item>
+        <item>@string/SUPPORT_USER_AGREEMENT</item>
+        <item>@string/EDC_ENABLE_PAPERLESS</item>
+        <item>@string/EDC_SMTP_HOST</item>
+        <item>@string/EDC_SMTP_PORT</item>
+        <item>@string/EDC_SMTP_USERNAME</item>
+        <item>@string/EDC_SMTP_PASSWORD</item>
+        <item>@string/EDC_SMTP_ENABLE_SSL</item>
+        <item>@string/EDC_SMTP_SSL_PORT</item>
+        <item>@string/EDC_SMTP_FROM</item>
+        <item>@string/EDC_PRINTER_TYPE</item>
+        <item>N</item>
+        <item>@string/EDC_ENABLE_SAVE_LOG</item>
+        <item>@string/EDC_ENABLE_PRINT_LOG</item>
+    </string-array>
+    <!--config the item type:0 is normal,1 is switch-->
+    <integer-array name="config_menu_edc_type_switch">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>1</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>1</item>
+        <item>1</item>
+    </integer-array>
+    <!--config the item value:1 has value;0 has no value-->
+    <integer-array name="config_menu_edc_has_value">
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>2</item>
+        <item>0</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </integer-array>
+    <!--parameters of EDC ↑-->
+</resources>

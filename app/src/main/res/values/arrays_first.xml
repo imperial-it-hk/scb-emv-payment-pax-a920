@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~
+  ~  ============================================================================
+  ~  PAX Computer Technology(Shenzhen) CO., LTD PROPRIETARY INFORMATION
+  ~  This software is supplied under the terms of a license agreement or nondisclosure
+  ~  agreement with PAX Computer Technology(Shenzhen) CO., LTD and may not be copied or
+  ~  disclosed except in accordance with the terms in that agreement.
+  ~      Copyright (C) 2019 -? PAX Computer Technology(Shenzhen) CO., LTD All rights reserved.
+  ~  Description:
+  ~  Revision History:
+  ~  Date	             Author	                Action
+  ~  20190220   	     ligq           	Create/Add/Modify/Delete
+  ~  ============================================================================
+  ~
+  -->
+
+<resources>
+    <!--parameters of the first config page ↓-->
+    <string-array name="config_menu_title_init">
+        <item>@string/settings_menu_communication_type</item>
+        <item>@string/settings_menu_communication_parameter</item>
+        <item>@string/settings_menu_otherManage</item>
+    </string-array>
+    <string-array name="config_menu_title_default">
+        <item>@string/settings_menu_communication_type</item>
+        <item>@string/settings_menu_communication_parameter</item>
+        <item>@string/settings_menu_edc_parameter</item>
+        <item>@string/settings_menu_issuer_parameter</item>
+        <item>@string/settings_menu_acquirer_parameter</item>
+        <item>@string/settings_menu_otherManage</item>
+    </string-array>
+
+    <integer-array name="config_menu_icon_init">
+        <item>@drawable/system_icon</item>
+        <item>@drawable/system_icon</item>
+        <item>@drawable/app_other</item>
+    </integer-array>
+    <integer-array name="config_menu_icon_default">
+        <item>@drawable/system_icon</item>
+        <item>@drawable/system_icon</item>
+        <item>@drawable/app_opermag</item>
+        <item>@drawable/merchant_icon</item>
+        <item>@drawable/merchant_icon</item>
+        <item>@drawable/app_other</item>
+    </integer-array>
+
+    <!--show the gray line or not:1 to show;0 to hide-->
+    <integer-array name="config_menu_show_line_init">
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+    </integer-array>
+    <!--show the gray line or not:1 to show;0 to hide-->
+    <integer-array name="config_menu_show_line_default">
+        <item>1</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>1</item>
+        <item>1</item>
+    </integer-array>
+
+    <!--set the menu type:0 means normal type like EDC,COMM;1 means function type-->
+    <!--which can jump the function(third) page directly  -->
+    <integer-array name="config_menu_type_init">
+        <item>1</item>
+        <item>0</item>
+        <item>1</item>
+    </integer-array>
+
+    <!--set the menu type:0 means normal type like EDC,COMM;1 means function type-->
+    <!--which can jump the function(third) page directly  -->
+    <integer-array name="config_menu_type_default">
+        <item>1</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>1</item>
+    </integer-array>
+    <!--parameters of the first config page ↑-->
+</resources>

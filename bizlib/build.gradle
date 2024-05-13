@@ -1,0 +1,54 @@
+apply plugin: 'com.android.library'
+apply plugin: 'org.greenrobot.greendao'
+apply plugin: 'kotlin-android'
+
+android {
+    compileSdkVersion rootProject.compileSdkVersion
+    buildToolsVersion rootProject.buildToolsVersion
+
+    defaultConfig {
+        minSdkVersion rootProject.minSdkVersion
+        targetSdkVersion rootProject.targetSdkVersion
+        versionCode 1
+        versionName "1.0"
+        buildConfigField('String', 'DATABASE_PWD', DATABASE_PWD)
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles 'consumer-rules.pro'
+    }
+
+    buildTypes {
+        release {
+            buildConfigField('boolean','RELEASE','true')
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        autoTest{
+            buildConfigField('boolean','RELEASE','false')
+        }
+        debug{
+            buildConfigField('boolean','RELEASE','false')
+        }
+    }
+
+}
+repositories {
+    flatDir {
+        dirs '../poslib/libs', 'libs'
+    }
+    mavenCentral()
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    api "androidx.appcompat:appcompat:$rootProject.androidAppcompat"
+    testImplementation "junit:junit:$rootProject.junit"
+    androidTestImplementation "androidx.test.ext:junit:$rootProject.androidxExtJunit"
+    androidTestImplementation "androidx.test.espresso:espresso-core:$rootProject.espresso"
+    api project(':poslib')
+    annotationProcessor 'com.sankuai.waimai.router:compiler:1.2.0'
+}
+greendao {
+    schemaVersion 5
+    daoPackage 'com.evp.bizlib.data.local.db.dao'
+    targetGenDir 'src/main/java'
+}

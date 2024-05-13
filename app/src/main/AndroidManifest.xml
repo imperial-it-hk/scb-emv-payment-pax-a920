@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.evp.payment.evpscb"
+    android:installLocation="internalOnly" >
+
+    <uses-sdk tools:overrideLibrary="com.icg.scancode" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission
+        android:name="android.permission.CHANGE_CONFIGURATION"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.pax.permission.MAGCARD" />
+    <uses-permission android:name="com.pax.permission.PED" />
+    <uses-permission android:name="com.pax.permission.ICC" />
+    <uses-permission android:name="com.pax.permission.PICC" />
+    <uses-permission android:name="com.pax.permission.PRINTER" />
+    <uses-permission android:name="com.pax.pay.service.PaymentService" />
+    <uses-permission android:name="com.pax.appstore.PaxAppStoreService" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        tools:ignore="ProtectedPermissions" />
+
+    <application
+        android:name="com.evp.pay.app.FinancialApplication"
+        android:allowBackup="false"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning"
+        tools:replace="android:label,android:allowBackup" >
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+        <activity android:name="com.evp.pay.trans.action.activity.QRCodeActivity" >
+        </activity>
+        <activity
+            android:name="com.evp.pay.trans.action.activity.ConfirmAmountActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="nosensor"
+            android:theme="@style/AnimFade"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.evp.pay.SplashActivity"
+            android:theme="@style/TransBgTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.evp.pay.menu.QueryMenuActivity"/>
+        <activity android:name="com.evp.pay.menu.PaymentPlatformMenuActivity"/>
+        <activity
+            android:name="com.evp.pay.MainActivity"
+            android:configChanges="orientation|mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|screenLayout|fontScale|uiMode|screenSize|smallestScreenSize|layoutDirection"
+            android:label="@string/app_name"
+            android:screenOrientation="nosensor"
+            android:theme="@style/TransBgThemeMain"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.evp.pay.CheckPwdActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="nosensor"
+            android:theme="@style/AnimFade"
+            android:windowSoftInputMode="adjustPan|stateAlwaysVisible" />
+        <activity
+            android:name="com.evp.pay.SelfTestActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="nosensor"
+            android:theme="@style/AnimFade"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.evp.pay.PaymentActivity"
+            android:screenOrientation="nosensor"
+            android:theme="@style/TransBgTheme"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+            <intent-filter>
+                <action android:name="android.pax.payment.entry" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="com.evp.payment.evpscb" />
+                <category android:name="android.evp.payment.sale" />
+                <category android:name="android.evp.payment.void" />
+                <category android:name="android.evp.payment.refund" />
+                <category android:name="android.evp.payment.preAuth" />
+                <category android:name="android.evp.payment.printTrans" />
+                <category android:name="android.evp.payment.printTransTotal" />
+                <category android:name="android.evp.payment.settle" />
+                <category android:name="android.evp.payment.printBitmap" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.evp.payment.entry" />
+
+                <category android:name="android.evp.payment.sale" />
+                <category android:name="android.evp.payment.void" />
+                <category android:name="android.evp.payment.refund" />
+                <category android:name="android.evp.payment.preAuth" />
+                <category android:name="android.evp.payment.printTrans" />
+                <category android:name="android.evp.payment.printTransTotal" />
+                <category android:name="android.evp.payment.settle" />
+                <category android:name="android.evp.payment.printBitmap" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.evp.pay.trans.action.activity.SearchCardActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|navigation"
+            android:launchMode="singleTop"
+            android:screenOrientation="nosensor"
+            android:theme="@style/AnimFade"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.evp.pay.trans.action.activity.AdjustTipActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="nosensor"
+            android:theme="@style/AnimFade"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.evp.pay.trans.action.activity.DispTransDetailActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="nosensor"
+            android:theme="@style/AnimFade"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.evp.pay.trans.action.activity.TransDetailConfirmActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="nosensor"
+            android:theme="@style/AnimFade"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.evp.pay.trans.action.activity.SignatureActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="nosensor"
+            android:theme="@style/AnimFade"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.evp.pay.trans.action.activity.UserAgreementActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="nosensor"
+            android:theme="@style/AnimFade" />
+        <activity
+            android:name="com.evp.pay.trans.action.activity.PrintPreviewActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="nosensor"
+            android:theme="@style/AnimFade"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.evp.pay.menu.AuthMenuActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="nosensor"
+            android:theme="@style/AnimFade"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.evp.pay.menu.QRPaymentBSCMenuActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="nosensor"
+            android:theme="@style/AnimFade"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.evp.pay.menu.QRPaymentCSBMenuActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="nosensor"
+            android:theme="@style/AnimFade"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.evp.pay.menu.InstallmentMenuActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="nosensor"
+            android:theme="@style/AnimFade"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.evp.pay.menu.RedeemMenuActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="nosensor"
+            android:theme="@style/AnimFade"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.evp.pay.menu.RedeemTypeMenuActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="nosensor"
+            android:theme="@style/AnimFade"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.evp.pay.trans.action.activity.ProductDetailsActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="nosensor"
+            android:theme="@style/AnimFade"
+            android:windowSoftInputMode="adjustResize"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name="com.evp.pay.menu.ManageMenuActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="nosensor"
+            android:theme="@style/AnimFade"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.evp.pay.menu.PasswordMenuActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="nosensor"
+            android:theme="@style/AnimFade"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.evp.pay.trans.action.activity.DispSingleLineMsgActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="nosensor"
+            android:theme="@style/AnimFade"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.evp.pay.password.ChangeMerchantPwdActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="nosensor"
+            android:theme="@style/AnimFade"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.evp.pay.password.ChangeAdministratorPwdActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="nosensor"
+            android:theme="@style/AnimFade"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.evp.pay.password.ChangeVoidPwdActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="nosensor"
+            android:theme="@style/AnimFade"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.evp.pay.password.ChangeRefundPwdActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="nosensor"
+            android:theme="@style/AnimFade"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.evp.pay.password.ChangeOfflineSalePwdActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="nosensor"
+            android:theme="@style/AnimFade"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.evp.pay.password.ChangeSettlePwdActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="nosensor"
+            android:theme="@style/AnimFade"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.evp.pay.trans.action.activity.InputTransDataTipActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="nosensor"
+            android:theme="@style/AnimFade"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.evp.pay.trans.action.activity.InputTransData1Activity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="nosensor"
+            android:theme="@style/AnimFade"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.evp.pay.trans.action.activity.PaperlessActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="nosensor"
+            android:theme="@style/AnimFade"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.evp.pay.record.TransQueryActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="nosensor"
+            android:theme="@style/AnimFade"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.evp.pay.trans.action.activity.SettleActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="nosensor"
+            android:theme="@style/AnimFade"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.evp.pay.trans.action.activity.EnterAmountActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="nosensor"
+            android:theme="@style/AnimFade"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.evp.pay.trans.action.activity.EnterAuthCodeActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="nosensor"
+            android:theme="@style/AnimFade"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.evp.pay.trans.action.activity.EnterPinActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="nosensor"
+            android:theme="@style/AnimFade"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.evp.pay.trans.action.activity.SelectAcqActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="nosensor"
+            android:theme="@style/AnimFade"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.evp.pay.WebViewActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="nosensor"
+            android:theme="@style/AnimFade"
+            android:windowSoftInputMode="adjustPan|stateHidden|adjustResize" />
+        <activity
+            android:name="com.evp.pay.utils.lightscanner.LightScannerActivity"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name="com.evp.pay.trans.action.activity.DispVersionActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="nosensor"
+            android:theme="@style/AnimFade"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.evp.pay.trans.action.activity.DccGetCardholderDecisionActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="nosensor"
+            android:theme="@style/AnimFade"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.evp.pay.trans.action.activity.QuerySelectActionActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="nosensor"
+            android:theme="@style/AnimFade"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.evp.pay.trans.action.activity.PrintSelectionActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="nosensor"
+            android:theme="@style/AnimFade"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity android:name="com.evp.pay.trans.action.activity.SuspendTransDataActivity"/>
+        <activity android:name="com.evp.pay.trans.action.activity.ShowSuspendConfirmActivity"/>
+        <activity android:name="com.evp.pay.trans.action.activity.SuspendQrActivity"/>
+        <activity android:name="com.evp.pay.trans.action.activity.SelectPaymentChannelTypeActivity"/>
+        <activity android:name="com.evp.pay.trans.action.activity.SelectReportActivity"/>
+        <activity android:name="com.evp.pay.trans.action.activity.RefundMenuActivity"/>
+        <activity android:name="com.evp.pay.trans.action.activity.SelectItemActivity"/>
+        <activity android:name="com.evp.pay.trans.action.activity.AcquirerSelectionMenuActivity"/>
+        <activity android:name="com.evp.settings.SelectLanguageActivity"/>
+
+        <receiver
+            android:name="com.evp.appstore.DownloadParamReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.paxmarket.ACTION_TO_DOWNLOAD_PARAMS" />
+
+                <category android:name="com.evp.payment.evpscb" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.evp.pay.ConfigFirstActivity"
+            android:label="@string/settings_title"
+            android:theme="@style/AnimFade.NoActionBar" />
+        <activity
+            android:name="com.evp.settings.ConfigSecondActivity"
+            android:theme="@style/AnimFade.NoActionBar" />
+        <activity
+            android:name="com.evp.settings.ConfigThirdActivity"
+            android:theme="@style/AnimFade.NoActionBar"
+            android:windowSoftInputMode="adjustPan|stateHidden" /> <!-- PAXSTORE APP_KEY -->
+        <meta-data
+            android:name="PAXSTORE_APP_KEY"
+            android:value="${PAXSTORE_APP_KEY}" /> <!-- PAXSTORE APP_SECRET -->
+        <meta-data
+            android:name="PAXSTORE_APP_SECRET"
+            android:value="${PAXSTORE_APP_SECRET}" />
+    </application>
+
+</manifest>

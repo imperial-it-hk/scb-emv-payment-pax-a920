@@ -1,0 +1,46 @@
+image: androidsdk/android-30
+
+pipelines:
+  branches:
+    '{master}':
+      - parallel:
+          - step:
+              size: 2x #Increase total memory to 8GB
+              name: Android Application build and deploy
+              caches:
+                - gradle
+              script:
+                # Pull submodules
+                - git submodule update --init --recursive
+
+                # Compile
+                - ./gradlew assembleDebug
+                - ./gradlew assembleRelease
+
+                # Prepare resources
+                - VERSION=$(basename app/build/outputs/apk/debug/*.apk | awk -F'[-]' '{print $2}')
+                - BUILD=$(basename app/build/outputs/apk/debug/*.apk  | awk -F'[-]' '{print $3}')
+                - apt-get -y install zip
+                - zip -j app/build/outputs/apk/debug/resource-$VERSION-$BUILD.zip app/src/main/assets/resource/*
+                - cp app/src/main/assets/config.json app/build/outputs/apk/debug/config-$VERSION-$BUILD.json
+
+                # Prepare release notes
+                - git log --pretty=format:"%s" --no-merges --grep='Fixed\|Implemented\|Modified\|Refactored' $(git describe --tags --abbrev=0)..HEAD > app/build/outputs/apk/debug/changelog-$VERSION-$BUILD.txt
+
+                # Create git TAG
+                - git tag -a v$VERSION-$BUILD -m "Release ${VERSION}-${BUILD}"
+                - git push origin --tags
+
+                # Deploy to artifactory
+                - pipe: jfrog/jfrog-setup-cli:1.0.0
+                - source ./jfrog-setup-cli.sh
+                - jfrog rt u "app/build/outputs/apk/debug/EVPSCB-(*)-(*)-*" evpscb/{1}/{2}/ --url $JF_EVOPAY_URL --user $JF_EVOPAY_USER --password $JF_EVOPAY_PWD
+                - jfrog rt u "app/build/outputs/apk/release/EVPSCB-(*)-(*)-*" evpscb/{1}/{2}/ --url $JF_EVOPAY_URL --user $JF_EVOPAY_USER --password $JF_EVOPAY_PWD
+                - jfrog rt u "app/build/outputs/apk/debug/resource-(*)-(*).*" evpscb/{1}/{2}/ --url $JF_EVOPAY_URL --user $JF_EVOPAY_USER --password $JF_EVOPAY_PWD
+                - jfrog rt u "app/build/outputs/apk/debug/config-(*)-(*).*" evpscb/{1}/{2}/ --url $JF_EVOPAY_URL --user $JF_EVOPAY_USER --password $JF_EVOPAY_PWD
+                - jfrog rt u "app/build/outputs/apk/debug/changelog-(*)-(*).*" evpscb/{1}/{2}/ --url $JF_EVOPAY_URL --user $JF_EVOPAY_USER --password $JF_EVOPAY_PWD
+          - step:
+              name: Security Scan
+              script:
+                # Run a security scan for sensitive data.
+                - pipe: atlassian/git-secrets-scan:0.5.1

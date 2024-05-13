@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?><!-- 可以直接输入的字符(如0-9,.)，他们在键盘映射xml中的android:codes值必须配置为该字符的ASCII码 -->
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:keyWidth="33.3%p"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"
+    android:keyHeight="10.8%p">
+    <Row>
+        <Key
+            android:codes="49"
+            android:keyLabel="@string/num_1"
+            android:keyIcon="@drawable/btn_bg_dark" />
+        <Key
+            android:codes="50"
+            android:keyLabel="@string/num_2"
+            android:keyIcon="@drawable/btn_bg_dark" />
+        <Key
+            android:codes="51"
+            android:keyLabel="@string/num_3"
+            android:keyIcon="@drawable/btn_bg_dark" />
+    </Row>
+    <Row>
+        <Key
+            android:codes="52"
+            android:keyLabel="@string/num_4"
+            android:keyIcon="@drawable/btn_bg_dark" />
+        <Key
+            android:codes="53"
+            android:keyLabel="@string/num_5"
+            android:keyIcon="@drawable/btn_bg_dark" />
+        <Key
+            android:codes="54"
+            android:keyLabel="@string/num_6"
+            android:keyIcon="@drawable/btn_bg_dark" />
+    </Row>
+    <Row>
+        <Key
+            android:codes="55"
+            android:keyLabel="@string/num_7"
+            android:keyIcon="@drawable/btn_bg_dark" />
+        <Key
+            android:codes="56"
+            android:keyLabel="@string/num_8"
+            android:keyIcon="@drawable/btn_bg_dark" />
+        <Key
+            android:codes="57"
+            android:keyLabel="@string/num_9"
+            android:keyIcon="@drawable/btn_bg_dark" />
+    </Row>
+    <Row>
+        <Key
+            android:codes="-90"
+            android:keyLabel="C"
+            android:keyIcon="@drawable/btn_bg_dark" />
+        <Key
+            android:codes="48"
+            android:keyLabel="@string/num_0"
+            android:keyIcon="@drawable/btn_bg_dark" />
+        <Key
+            android:codes="-91"
+            android:keyIcon="@drawable/selection_btn_delete"
+            android:keyEdgeFlags="right"
+            android:isRepeatable="true" />
+    </Row>
+    <Row>
+        <Key
+            android:codes="0"
+            android:keyLabel=""
+            android:keyWidth="5%p" />
+        <Key
+            android:codes="-93"
+            android:keyLabel="@string/sale_pay"
+            android:keyWidth="90%p"
+            android:keyIcon="@drawable/confirmbtn"
+            />
+        <Key
+            android:codes="0"
+            android:keyLabel=""
+            android:keyWidth="5%p"
+            android:isRepeatable="true" />
+    </Row>
+</Keyboard>

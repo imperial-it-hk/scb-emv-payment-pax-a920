@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">paxprinter</string>
+    <string name="title_paired_devices">Paried devices</string>
+    <string name="title_other_devices">bt devices</string>
+    <string name="button_scan">Scan</string>
+    <string name="look_for_printer">Look for Printer</string>
+    <string name="available_devices">Available devices</string>
+    <string name="cancel">cancel</string>
+</resources>

@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">EVPSCB</string>
+    <string name="app_name_test">EVP Test</string>
+
+    <!-- Base -->
+    <string name="num_0">0</string>
+    <string name="num_1">1</string>
+    <string name="num_2">2</string>
+    <string name="num_3">3</string>
+    <string name="num_4">4</string>
+    <string name="num_5">5</string>
+    <string name="num_6">6</string>
+    <string name="num_7">7</string>
+    <string name="num_8">8</string>
+    <string name="num_9">9</string>
+    <string name="num_00">00</string>
+    <string name="num_000">000</string>
+
+    <string name="dateTime">Date/Time</string>
+    <string name="placeholder">:)</string>
+    <string name="sec">s</string>
+    <string name="ad">Ad</string>
+    <string name="ad_widget_label">Ad</string>
+    <string name="amount_widget_label">Amount</string>
+    <string name="go_system_setting_date">Go System Time Setting</string>
+
+    <!-- to be sorted -->
+    <string name="base_amount">Base Amount</string>
+    <string name="total_amount">Total Amount</string>
+    <string name="tip_amount">Tips</string>
+    <string name="trans_oriDate">Original Transaction Date</string>
+    <string name="has_trans_for_settle">Please Settle Firstly</string>
+    <string name="amount_default">0</string>
+    <string name="amount_confirmation">Amount Confirmation</string>
+    <string name="quick_pass_sale_free_pin">Sale by PIN</string>
+    <string name="demo_mode">****Demo Mode****</string>
+    <string name="paperless">Paperless</string>
+
+    <!-- Transaction Type -->
+    <string name="trans_sale">Sale</string>
+    <string name="trans_void">Void</string>
+    <string name="trans_adjust">Adjust</string>
+    <string name="trans_offline">Offline</string>
+    <string name="trans_preAuth">Pre-Auth</string>
+    <string name="trans_preAuthCancel">Pre-Auth Cancellation</string>
+    <string name="trans_preAuthComplete">Pre-Auth Completion</string>
+    <string name="trans_refund">Refund</string>
+    <string name="trans_echo">Echo</string>
+    <string name="trans_settle">Settlement</string>
+    <string name="trans_batch_up">Batch Upload</string>
+    <string name="trans_settle_end">Settlement End</string>
+    <string name="trans_offline_send">Offline</string>
+    <string name="trans_history">History</string>
+    <string name="trans_password">Password</string>
+    <string name="trans_signature">Signature</string>
+    <string name="trans_user_agreement">User Agreement</string>
+    <string name="trans_reprint">Reprint</string>
+    <string name="trans_manage">Management</string>
+    <string name="trans_scan">Scan</string>
+    <string name="print_menu">Print</string>
+
+    <!-- Transaction History-->
+    <string name="history_total">Total</string>
+    <string name="history_detail">Detail</string>
+    <string name="history_detail_type">Type</string>
+    <string name="history_detail_issuer">Card Type</string>
+    <string name="history_detail_card_no">Card NO.</string>
+    <string name="history_detail_amount">Amount</string>
+    <string name="history_detail_auth_code">App. Code</string>
+    <string name="history_detail_trace_no">Trace NO.</string>
+    <string name="history_detail_ref_no">Reference NO.</string>
+    <string name="history_detail_state">State</string>
+    <string name="history_summary_ref_no">Reference NO.:</string>
+    <string name="history_menu_search">Search</string>
+    <string name="history_menu_print_trans_last">Print Last</string>
+    <string name="history_menu_print_trans_detail">Print Detail</string>
+    <string name="history_menu_print_trans_total">Print Summary</string>
+    <string name="history_menu_print_last_total">Print Last Settle</string>
+    <string name="wallet">Wallet</string>
+    <string name="last_transaction">Last Transaction</string>
+    <string name="suspended_qr">Suspended QR</string>
+    <string name="any_transaction">Any Transaction</string>
+
+    <!-- Transaction State -->
+    <string name="state_normal">Normal</string>
+    <string name="state_voided">Voided</string>
+    <string name="state_adjusted">Adjusted</string>
+    <string name="state_uploaded">Uploaded</string>
+    <string name="state_not_sent">Not Sent</string>
+    <string name="state_sent_error">Send Error</string>
+    <string name="state_response_error">Response Error</string>
+    <string name="state_unknow_error">Unknown Error</string>
+
+    <!-- Settlement -->
+    <string name="settle_acquirer_name">Acquirer Name</string>
+    <string name="settle_merchant_name">Merchant Name</string>
+    <string name="settle_merchant_id">Merchant NO.</string>
+    <string name="settle_terminal_id">Terminal NO.</string>
+    <string name="settle_batch_id">Batch NO.</string>
+    <string name="settle_trans_type">Trans Type</string>
+    <string name="settle_trans_times">Trans Times</string>
+    <string name="settle_amount">Amount</string>
+    <string name="settle_print_detail_or_not">Print Settle Detail Or Not?</string>
+    <string name="settle_print_fail_detail_or_not">Print Fail Detail Or Not?</string>
+    <string name="settle_select_acquirer">Select Acquirer</string>
+    <string name="settle_total_void_sale">Voided Sale</string>
+    <string name="settle_total_void_refund">Voided Refund</string>
+    <string name="settle_all_selected">Settle</string>
+    <string name="settle_total_offline">Offline</string>
+    <string name="settle_settled">Settled</string>
+
+    <!-- Password Management -->
+    <string name="pwd_merchant">Merchant</string>
+    <string name="pwd_terminal">Terminal</string>
+    <string name="pwd_void">Void</string>
+    <string name="pwd_refund">Refund</string>
+    <string name="pwd_adjust">Adjust</string>
+    <string name="pwd_settle">Settlement</string>
+    <string name="pwd_old_pwd">Old Password</string>
+    <string name="pwd_new_pwd">New Password</string>
+    <string name="pwd_not_equal">Not Matched, Please Enter Again</string>
+    <string name="pwd_verify_new_pwd">Verify New Password</string>
+    <string name="pwd_succ">Success</string>
+    <string name="pwd_incorrect_length">Request 6 Digits</string>
+
+    <!-- signature -->
+    <string name="signature_clear">Clear</string>
+    <string name="signature_done">Enter</string>
+    <string name="signature_redo">Signature Data Is Too Long,Please Re-sign</string>
+
+    <!-- User Agreement -->
+    <string name="user_agreement_agree">Agree</string>
+
+    <!-- print -->
+    <string name="print_history_detail">Transaction Detail List</string>
+    <string name="print_settle_detail">Settle Detail List</string>
+    <string name="print_history_total">Transaction Total List</string>
+    <string name="print_last_total">Last Transaction Total List</string>
+    <string name="print_offline_send_failed">Failed Offline Send Detail List</string>
+    <string name="last_settlement">Last Settlement</string>
+
+    <!-- InputPwdDialog -->
+    <string name="prompt_merchant_pwd">Please Enter Merchant Password</string>
+    <string name="prompt_terminal_pwd">Please Enter Terminal Password</string>
+    <string name="prompt_void_pwd">Please Enter Void Password</string>
+    <string name="prompt_refund_pwd">Please Enter Refund Password</string>
+    <string name="prompt_adjust_pwd">Please Enter Adjust Password</string>
+    <string name="prompt_settle_pwd">Please Enter Settle Password</string>
+    <string name="prompt_sys_pwd">Please Enter System Administrator Password</string>
+    <string name="prompt_pin">Please Enter PIN</string>
+    <string name="prompt_no_pin">If No PIN, Please Press Enter</string>
+    <string name="prompt_offline_pin">Please Enter PIN</string>
+    <string name="prompt_auth_code">Please Enter Approval Code</string>
+    <string name="prompt_lock_terminal">Lock Terminal?</string>
+
+    <!-- SearchCardActivity -->
+    <string name="prompt_insert_swipe_wave_card">Please Swipe/Insert/Tap Card</string>
+    <string name="prompt_insert_card">Please Insert Card</string>
+    <string name="prompt_swipe_card">Please Swipe Card</string>
+    <string name="prompt_wave_card">Please Wave Card</string>
+    <string name="prompt_insert_swipe_card">Please Swipe/Insert Card</string>
+    <string name="prompt_please_retry">Read Card Failed, Please Retry</string>
+    <string name="prompt_input_mode_params_error">Card Parameters Error</string>
+    <string name="prompt_ic_card_input">The Card Is IC Card, Please Insert Card!</string>
+    <string name="prompt_card_date">Card Date</string>
+    <string name="prompt_card_num">Card No.</string>
+    <string name="prompt_card_date_err">Date Format Error, Please Check!</string>
+    <string name="prompt_card_num_err">Card Number Error, Please Check!</string>
+    <string name="prompt_card_num_manual">Or Enter Card Number Manually</string>
+    <string name="prompt_date_default">MM/YY</string>
+    <string name="prompt_default_searchCard_prompt">Please Use Your Bank Card</string>
+    <string name="prompt_confirm_card_info">Please Confirm Card Information</string>
+    <string name="btn_confirm">CONFIRM</string>
+    <string name="prompt_no_sms">Unable to send SMS</string>
+    <string name="prompt_phone_number">Please Input Phone Number:</string>
+    <string name="prompt_email_address">Please Input Email Account:</string>
+    <string name="prompt_fall_back">Please Remove Card, then Swipe Card</string>
+
+    <!-- QR Payment -->
+    <string name="alipay">Alipay</string>
+    <string name="wechat">Wechat</string>
+    <string name="prompt_pay">PromptPay</string>
+    <string name="line_pay">LinePay</string>
+    <string name="true_money">TrueMoney</string>
+    <string name="shopee">Shopee</string>
+    <string name="dolfin">Dolfin</string>
+    <string name="qrcs">QRCS</string>
+
+    <!-- InfosInputActivity -->
+    <string name="prompt_input_transno">Please Enter Original Trans NO.</string>
+    <string name="prompt_input_tran_ref">Please Enter Trans Ref.</string>
+    <string name="prompt_input_ref1">Please Enter Reference 1</string>
+    <string name="prompt_input_ref3">Please Enter Reference 3</string>
+    <string name="prompt_input_orig_refer">Original Transaction Reference NO.</string>
+    <string name="prompt_input_amount">Amount:</string>
+    <string name="prompt_input_refund_amount">Refund Amount:</string>
+    <string name="prompt_input_auth_code">Authorization Code</string>
+    <string name="prompt_input_date">Original Transaction Date</string>
+    <string name="please_input_again">Please Enter Again</string>
+    <string name="prompt_date_default2">MM/DD</string>
+    <string name="prompt_get_last">Click OK to Get Last Transaction</string>
+    <string name="prompt_input_ipp_term">Installment #Month</string>
+
+    <!-- adjust -->
+    <string name="prompt_base_amount">Base</string>
+    <string name="prompt_tip">Tip</string>
+    <string name="prompt_ori_tips">Original Tip</string>
+    <string name="prompt_tip_not_changed">Tip not changed</string>
+    <string name="prompt_adjust_percent">Tip percent</string>
+    <string name="prompt_new_tips">New Tip</string>
+    <string name="prompt_total_amount">Total Amount</string>
+    <string name="prompt_tip_exceed">tip amount over limit</string>
+
+    <!-- query -->
+    <string name="payment_icon">Payment Icon</string>
+    <string name="suspend_pay">Pay</string>
+    <string name="suspend_delete">Delete</string>
+    <string name="delete_suspend_qr">Delete Suspended QR</string>
+    <string name="pull_slip">Pull Slip</string>
+
+    <!-- report -->
+    <string name="select_report_type">Select Report Type</string>
+    <string name="summary_report">Summary Report</string>
+    <string name="audit_report">Audit Report</string>
+    <string name="all_payment_channel">All Payment Channel</string>
+    <string name="select_payment_channel">Select Payment Channel</string>
+
+    <!-- CustomAlertDialog -->
+    <string name="dialog_delete">Delete</string>
+    <string name="dialog_clear">Clear</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_sms">SMS</string>
+    <string name="dialog_email">Email</string>
+    <string name="dialog_enter">Enter</string>
+    <string name="dialog_print">Print</string>
+    <string name="print_qr">Print QR</string>
+
+    <string name="prompt_use_pinpad">Please use the PINPAD</string>
+
+    <string name="dialog_trans_succ">Transaction Successful</string>
+    <string name="dialog_settlement_succ">Settlement Successful</string>
+    <string name="dialog_trans_succ_liff"><xliff:g id="SUCCESS">%1$s</xliff:g> Success</string>
+    <string name="dialog_trans_error">Transaction Error</string>
+    <string name="dialog_icc_cmd_err">IC card command is failed</string>
+    <string name="dialog_emv_no_app">There is no AID matched between ICC and terminal</string>
+    <string name="dialog_emv_no_app_ppse_err">No application is supported</string>
+    <string name="dialog_clss_param_err">Parameter is error</string>
+    <string name="dialog_clss_use_contact">Must use other interface for the transaction</string>
+    <string name="dialog_clss_declined">Clss Declined</string>
+    <string name="dialog_clss_try_contact">Please Use Contact Interface</string>
+    <string name="dialog_clss_terminate">Clss Terminate</string>
+
+    <string name="dialog_please_select">Please Select:</string>
+    <string name="dialog_reset_bp60a">Reset BP60A_Printer Successful</string>
+    <!-- waiting -->
+    <string name="wait_print">Printing, Please Wait&#8230;</string>
+    <string name="wait_receipt_generate">Receipt generating, Please Wait&#8230;</string>
+    <string name="wait_demo_mode">Demo Mode&#8230;</string>
+    <string name="wait_initialize_net">Initialize Net&#8230;</string>
+    <string name="wait_process">Processing, Please Wait&#8230;</string>
+    <string name="wait_connect">Connecting, Please Wait&#8230;</string>
+    <string name="wait_scan">Scanning, Please Wait&#8230;</string>
+    <string name="wait_connect_other">Backup Host Connecting,Please Wait&#8230;</string>
+    <string name="wait_send">Sending, Please Wait&#8230;</string>
+    <string name="wait_recv">Receiving, Please Wait&#8230;</string>
+    <string name="wait_init_device">Initiating, Please Wait&#8230;</string>
+    <string name="wait_2_init_device">Please Complete Initialization firstly!</string>
+    <string name="wait_pull_card">Please Remove Card&#8230;</string>
+    <string name="wait_remove_card">Please Remove Card&#8230;</string>
+    <string name="wait_load">Loading, Please Wait&#8230;</string>
+    <string name="wait_self_test">self-test&#8230;</string>
+    <string name="wait_tle_not_enabled">TLE is not enabled.</string>
+
+    <!-- error -->
+
+    <string name="no_long_press">Please remove finger</string>
+    <string name="err_timeout">Timeout</string>
+    <string name="err_connect">Connect Error</string>
+    <string name="err_send">Send Error</string>
+    <string name="err_recv">Receive Error</string>
+    <string name="err_pack">Pack Error</string>
+    <string name="err_unpack">Unpack Error</string>
+    <string name="err_packet">Illegal Packet</string>
+    <string name="err_mac">Unpack MAC Error</string>
+    <string name="err_proc_code">Unpack Precess Code Error</string>
+    <string name="err_msg">Unpack Message Type Code Error</string>
+    <string name="err_trans_amt">Unpack Amount Error</string>
+    <string name="err_trace_no">Unpack Trace NO. Error</string>
+    <string name="err_stan_no">Unpack Stan NO. Error</string>
+    <string name="err_term_id">Unpack Terminal ID Error</string>
+    <string name="err_merch_id">Unpack Merchant ID Error</string>
+    <string name="err_no_trans">No Transaction</string>
+    <string name="err_no_succ_trans">No Approved Transaction</string>
+    <string name="err_no_failed_trans">No Failed Transaction</string>
+    <string name="err_no_orig_trans">Original Transaction Not Existed</string>
+    <string name="err_has_voided">Transaction Has Been Voided</string>
+    <string name="err_un_voided">Transaction cannot be Voided</string>
+    <string name="err_comm_channel">Open Communication Channel Error</string>
+    <string name="err_host_reject">Host Rejected</string>
+    <string name="err_need_settle_now">Transaction Number Exceed,\nPlease Settle Now</string>
+    <string name="err_need_settle_later">Transaction Number Exceed,\nPlease Settle Later</string>
+    <string name="err_no_free_space">No Free Space,\nPlease Settle Now</string>
+    <string name="err_unsupported_trans">Unsupported Transaction</string>
+    <string name="err_batch_up_break_need_continue">Last Batch Up Break,\Please Click Settle Continue</string>
+    <string name="err_undefine">Undefined Error</string>
+    <string name="err_undefine_info">Undefined</string>
+    <string name="err_original_cardno">Cannot Match the Original Card NO.</string>
+    <string name="err_password">Wrong Password!</string>
+    <string name="err_param">Parameter Error</string>
+    <string name="err_amount">Amount Exceed</string>
+    <string name="err_card_denied">Host Approval,Card Denied\nPlease Contact Issuer</string>
+    <string name="err_card_unsupported_demotion">Demotion is Unsupported</string>
+    <string name="err_card_bin">Card BIN format Error</string>
+    <string name="err_settle_select_acq">Please Choose an Acquirer!</string>
+    <string name="err_print_paper">Out of Paper&#8230;</string>
+    <string name="err_print_hot">Printer Overheat, Please Wait&#8230;</string>
+    <string name="err_print_voltage">Printer Voltage is Too Low</string>
+    <string name="err_password_reenter">Incorrect PIN, Please Enter Again</string>
+    <string name="err_reverse">Reverse Error, Please Contact Issuer</string>
+    <string name="err_unadjusted">Transaction cannot be Adjusted</string>
+    <string name="err_card_unsupported">Unsupported Card</string>
+    <string name="err_card_pan">Error Card PAN</string>
+    <string name="err_expired_card">Expired Card</string>
+    <string name="err_unsupported_func">Unsupported Function</string>
+    <string name="err_not_allowed">Not Allowed</string>
+    <string name="err_user_cancel">Transaction Cancelled</string>
+    <string name="err_sms_sent_fail">Failed to send SMS</string>
+    <string name="err_clss_preproc_fail">Clss PreProc Fail</string>
+    <string name="err_invalid_emv_qr">Invalid QR Code</string>
+    <string name="err_invalid_bt_printer">Invalid Bluetooth Printer</string>
+    <string name="err_bt_print_cancel">Print Canceled</string>
+    <string name="err_bt_connect">Bluetooth Connect Error</string>
+    <string name="err_tmk_download_failed">TMK download failed</string>
+    <string name="err_twk_download_failed">TWK download failed</string>
+    <string name="err_tle_keys_missing">TLE key download required</string>
+    <string name="err_tle_kcv_mismatch">TLE key KCV error</string>
+    <string name="dialog_transaction_declined">Transaction Declined</string>
+    <string name="invalid_qr_code">Invalid QR Code</string>
+    <string name="err_trans_not_found">Payment reference does not exist</string>
+
+    <string name="prompt_reverse">Reverse</string>
+    <string name="prompt_err_code">Error Code:</string>
+    <string name="unlock_hint">Slide up to Unlock</string>
+    <string name="prompt_open_write_settings">Please open write settings!</string>
+
+    <string name="set_settle">Have Transaction,Please Settle Now</string>
+    <string name="set_cardHolder_name">Cardholder Name</string>
+
+    <!-- Version -->
+    <string name="version">Version</string>
+    <string name="app_version">Software Version NO.</string>
+
+    <!-- EMV -->
+    <string name="emv_param_load">Loading Emv Param.</string>
+    <string name="emv_init_succ">Emv Param Initiated Successfully.</string>
+    <string name="emv_cardno_confirm">Card NO. Confirm</string>
+    <string name="emv_application_choose">APP Choose</string>
+    <string name="emv_application_choose_again">APP Choose[Choose Again]</string>
+    <string name="emv_input_last">Last</string>
+    <string name="emv_arrival_card">Arrival Card</string>
+    <string name="emv_identity_card">Identity Card</string>
+    <string name="emv_officers_card">Officers Card</string>
+    <string name="emv_other_card">Other Card</string>
+    <string name="emv_passport">Passport</string>
+    <string name="emv_interim_identity_card">Interim Identity Card</string>
+    <string name="emv_card_in_black_list">Card in Black list</string>
+
+    <!-- Printer -->
+    <string name="print_card_check">Check</string>
+    <string name="print_card_check_uneven">Check Uneven</string>
+    <string name="print_card_check_err">Check Error</string>
+    <string name="print_bt_scan">Scan</string>
+    <string name="print_bt_print">Print</string>
+
+    <!-- Receipt -->
+    <string name="receipt_preview">Print Preview</string>
+    <string name="receipt_print">Print</string>
+    <string name="receipt_merchant_name">MERCHANT NAME</string>
+    <string name="receipt_merchant_code">MERCHANT ID.</string>
+    <string name="receipt_terminal_code">TERMINAL ID.</string>
+    <string name="receipt_terminal_code_space">TERMINAL ID.</string>
+    <string name="receipt_batch_num">BATCH NO.</string>
+    <string name="receipt_batch_num_colon">BATCH# </string>
+    <string name="receipt_batch_num_space">BATCH# </string>
+    <string name="receipt_date">DATE/TIME</string>
+    <string name="receipt_failed_trans_details">UPLOAD FAILED TRANSACTION DETAILS</string>
+    <string name="receipt_reject_trans_details">REJECT TRANSACTION DETAILS</string>
+    <string name="receipt_type">TYPE</string>
+    <string name="receipt_count">COUNT</string>
+    <string name="receipt_amount">AMOUNT</string>
+    <string name="receipt_card_borrow">DEBIT</string>
+    <string name="receipt_card_loan">LOAN</string>
+    <string name="receipt_card_no">CARD NO. </string>
+    <string name="receipt_trans_type">TRANSACTION TYPE</string>
+    <string name="receipt_trans_no">INV./TRACE NO# </string>
+    <string name="receipt_card_date">EXP. DATE</string>
+    <string name="receipt_card_issue">ISSUER</string>
+    <string name="receipt_auth_code">APP. CODE: </string>
+    <string name="receipt_card_acquirer">ACQUIRER</string>
+    <string name="receipt_ref_no">REF. NO.: </string>
+    <string name="receipt_card_organization">CARD ORGANIZATION CODE:</string>
+    <string name="receipt_comment">COMMENT:</string>
+    <string name="receipt_orig_trans_no">ORIGINAL TRANS NO.:</string>
+    <string name="receipt_orig_date">ORIGINAL TRANS DATE:</string>
+    <string name="receipt_orig_auth_code">ORIGINAL APP CODE:</string>
+    <string name="receipt_orig_ref_no">ORIGINAL REFERENCE CODE:</string>
+    <string name="receipt_print_again">DUPLICATE</string>
+    <string name="receipt_had_void">HAD VOID</string>
+    <string name="receipt_amount_prompt_start">TRANSACTION AMOUNT NOT EXCEED</string>
+    <string name="receipt_amount_prompt_end">NO NEED TO ENCRYPT OR SIGN</string>
+    <string name="receipt_amount_prompt_end_sign">NO NEED TO SIGN</string>
+    <string name="receipt_amount_prompt_end_pin">NO NEED TO ENTER PIN</string>
+    <string name="receipt_qr_signature">SIGNATURE NOT REQUIRED</string>
+    <string name="receipt_sign">-------CARDHOLDER SIGNATURE-------</string>
+    <string name="receipt_sign_line">---------------------------------</string>
+    <string name="receipt_verify">I ACKNOWLEDGE SATISFACTORY RECEIPT OF RELATIVE GOODS/SERVICE</string>
+    <string name="receipt_stub_acquire">*** ACQUIRER COPY ***</string>
+    <string name="receipt_stub_merchant">*** MERCHANT COPY ***</string>
+    <string name="receipt_stub_user">*** CARDHOLDER COPY ***</string>
+    <string name="receipt_amount_sale">AMOUNT</string>
+    <string name="receipt_amount_tip">TIPS</string>
+    <string name="receipt_amount_total">TOTAL</string>
+    <string name="receipt_amount_base">BASE</string>
+    <string name="receipt_app_code">APP.CODE: </string>
+    <string name="receipt_voucher">VOUCHER</string>
+
+    <!-- Settings -->
+    <string name="set_cancel_save">Cancel Save</string>
+    <string name="set_recv">Receiving&#8230;</string>
+    <string name="set_key_success">Import Key Success</string>
+    <string name="set_key_fail">Import Key Fail</string>
+    <string name="set_system_date">run system date setting</string>
+    <string name="config_please_input">Please Input:</string>
+    <string name="digits_1">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="digits_2">0123456789</string>
+    <string name="digits_3">1230</string>
+    <string name="digits_4">0123456789.</string>
+    <string name="err_config_empty_input">Empty Input!</string>
+
+    <!-- initialization -->
+    <string name="init_pwd_hint">Initialization Password</string>
+
+    <!-- acquirer setting -->
+    <string name="acquirer">Acquirer</string>
+    <string name="acq_select_all">All</string>
+    <string name="acq_select_hint">Please Choose an Acquirer</string>
+    <string name="acq_terminal_id">Terminal ID</string>
+    <string name="acq_terminal_id_hint">8 digits</string>
+    <string name="acq_merchant_id">Merchant ID</string>
+    <string name="acq_merchant_id_hint">15 digits</string>
+    <string name="acq_nii">NII</string>
+    <string name="acq_nii_hint">3 digits</string>
+    <string name="acq_batch_no">BATCH NO.</string>
+    <string name="acq_batch_no_hint">6 digits</string>
+    <string name="acq_commParam">Comm Param</string>
+    <string name="acq_address">Host Address</string>
+    <string name="acq_ip">IP</string>
+    <string name="acq_ip_hint">0.0.0.0</string>
+    <string name="acq_port">port</string>
+    <string name="acq_port_hint">10000</string>
+    <string name="acq_tle_enabled">TLE Enabled</string>
+    <string name="acq_tle_version">TLE Version</string>
+    <string name="acq_tle_nii">TLE NII</string>
+    <string name="acq_tle_kms_nii">TLE KMS NII</string>
+    <string name="acq_tle_vendor_id">TLE Vendor ID</string>
+    <string name="acq_tle_key_set_id">TLE Key set ID</string>
+    <string name="acq_tle_keys_download">TLE keys download</string>
+    <string name="acq_tle_te_id">TLE TE ID</string>
+    <string name="acq_tle_te_pin">TLE TE PIN</string>
+    <string name="acq_tle_acqid">TLE Acquirer ID</string>
+    <string name="acq_tle_sensitive_fields">TLE Sensitive fields</string>
+    <string name="alipay_terminal_id">Alipay Terminal ID</string>
+    <string name="alipay_merchant_id">Alipay Merchant ID</string>
+    <string name="alipay_acquirer">Alipay Acquirer</string>
+    <string name="wechat_terminal_id">Wechat Terminal ID</string>
+    <string name="wechat_merchant_id">Wechat Merchant ID</string>
+    <string name="wechat_acquirer">Wechat Acquirer</string>
+    <string name="tag30_terminal_id">Tag30 Terminal ID</string>
+    <string name="tag30_merchant_id">Tag30 Merchant ID</string>
+    <string name="tag30_biller_id">Tag30 Biller ID</string>
+    <string name="tag30_merchant_name">Tag30 Merchant Name</string>
+    <string name="tag30_partner_code">Tag30 Partner Code</string>
+    <string name="qrcs_terminal_id">QRCS Terminal ID</string>
+    <string name="qrcs_merchant_id">QRCS Merchant ID</string>
+    <string name="qrcs_partner_code">QRCS Partner Code</string>
+    <string name="inquiry_timeout">Inquiry Timeout</string>
+    <string name="inquiry_retries">Inquiry Retry Count</string>
+
+    <!-- issuer -->
+    <string name="issuer_select_hint">Please Choose an Issuer</string>
+    <string name="issuer_non_emv_tran_floor_limit">Non EMV Trans Floor Limit</string>
+    <string name="issuer_enable_adjust">Enable Adjust</string>
+    <string name="issuer_adjust_percent">Adjust Percent</string>
+    <string name="issuer_enable_offline">Enable Offline</string>
+    <string name="issuer_enable_expiry">Enable Expiry</string>
+    <string name="issuer_enable_manualPan">Enable Manual PAN</string>
+    <string name="issuer_check_adjust">Check Expiry</string>
+    <string name="issuer_check_pan">Check Pan</string>
+    <string name="issuer_enable_print">Enable Print</string>
+    <string name="issuer_not_emv_tran_pin_required">Non EMV Trans PIN Required</string>
+    <string name="issuer_enable_refund">Enable Refund</string>
+
+    <!-- Exit -->
+    <string name="please_install_neptune">Please Install Neptune</string>
+    <string name="exit_app">Exit Current APP?</string>
+    <string name="update_param_now_or_not">Update Parameter Now or Not?</string>
+    <string name="param_need_update_please_settle">Parameter Need Update, Please Settle!</string>
+    <string name="param_update_fail">Parameter Update Fail, Please Check Log</string>
+    <string name="app_need_update_please_settle">APP Need Update, Please Settle!</string>
+    <string name="update_param">Update Param</string>
+    <string name="parameter_update_success">Parameter update success!</string>
+    <string name="no_update_param">No Update Param</string>
+
+    <!-- image workaround -->
+    <string name="image_desc"> </string>
+
+    <string name="permission_rationale_storage">Please enable storage permission from System setting for saving crash log</string>
+    <string name="permission_rationale_sms">Please enable sms permission from System setting if you need paperless function</string>
+    <string name="permission_access_location">Please enable location permission from System setting if you need print function</string>
+
+    <string name="printer_title">Ptrint</string>
+    <string name="printer_type">Printer Type</string>
+    <string name="printer_ip">IP Printer</string>
+    <string name="printer_bluetooth">Bt Printer</string>
+    <string name="printer_qr">2Code</string>
+    <string name="printer_qr_hint">Input Content To Get 2Code</string>
+    <string name="printer_ip_hint">Printer IP</string>
+    <string name="printer_port_hint">Printer Port</string>
+    <string name="printer_port_text">9100</string>
+    <string name="printer_type_80">80mm</string>
+    <string name="printer_type_58">58mm</string>
+    <string name="printer_image_width">Img Width</string>
+    <string name="printer_image_width_default">576</string>
+
+    <string name="printer_bluetooth_not_support">Bluetooth Not Supported</string>
+    <string name="printer_bluetooth_dlg_open">Please Open Bluetooth...</string>
+    <string name="printer_bluetooth_dlg_close">Close Bluetooth Or Not?</string>
+
+    <string name="printer_test_bluetooth">BT Printer</string>
+    <string name="printer_cancel">Cancel</string>
+    <string name="printer_determine">Confirm</string>
+    <string name="printer_allow">Allow</string>
+    <string name="printer_deny">Deny</string>
+    <string name="printer_yes">Yes</string>
+    <string name="printer_no">No</string>
+    <string name="printer_bluetooth_dlg_close_error">Close Bluetooth Failed，Please Ref The System Set</string>
+    <string name="printer_is_bonded">Bonded Devices:</string>
+    <string name="printer_test_message_0">Start&#8230;</string>
+    <string name="printer_test_message_1">Gen Data&#8230;</string>
+    <string name="printer_test_message_2">Setup Socket&#8230;</string>
+    <string name="printer_test_message_3">Send data&#8230;</string>
+    <string name="printer_test_message_4">Get Output Stream&#8230;</string>
+    <string name="printer_test_message_5">Close Socket&#8230;</string>
+    <string name="printer_result_message_1">Print successful</string>
+    <string name="printer_result_message_2">Gen Data Failed!</string>
+    <string name="printer_result_message_3">Setup Socket Failed!</string>
+    <string name="printer_result_message_4">Get Output Stream Failed</string>
+    <string name="printer_result_message_5">Send Data Failed!</string>
+    <string name="printer_result_message_6">Param Is Null</string>
+    <string name="printer_result_message_7">Close Socket Failed!</string>
+    <string name="printer_result_message_8">Print Failed!</string>
+    <string name="title_activity_config">ConfigActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="trans_scanner">Scanner</string>
+    <!--二维码相关-->
+    <string name="scan_text">Align QR code/barcode within frame to scan</string>
+
+    <string name="leak_canary_display_activity_label">EDC Leaks</string>
+    <string name="icc_error_swipe_card">Please remove card to swipe or reinsert IC card</string>
+    <string name="remove_read_card_error">Read Card Failed, Please Retry</string>
+    <string name="configs_left_icon">configs left icon</string>
+    <string name="the_right_icon_of_configs_item">the right icon of configs\' item</string>
+
+    <string name="bt_printer_status">printer status</string>
+
+    <!--bluetooth print-->
+    <string name="bt_scan">Scanning</string>
+    <string name="bt_connect">Connecting</string>
+    <string name="bt_print">Printing</string>
+    <string name="bt_print_success">Print success!</string>
+    <string name="bt_print_failed">Print failed!</string>
+    <string name="bt_print_completed">Printing completed!</string>
+    <string name="bt_connect_success">Connect success!</string>
+    <string name="bt_connect_failed">Connect failed!</string>
+    <string name="bt_scan_completed">Scan completed!</string>
+    <string name="bt_toast_scanning">Please scanning first!</string>
+    <string name="bt_status_open">Please open bluetooth first!</string>
+    <string name="bt_no_device">No device!</string>
+
+    <string name="search_test_track2">5413330089020037=2512101050930812</string>
+
+    <string name="camera_permission">Please allow access to camera.</string>
+
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="default_notification_channel_name" translatable="true">weather</string>
+    <string name="aeVersion">AMEX Version NO.</string>
+    <string name="dpasVersion">DPAS Version NO.</string>
+    <string name="emvVersion">EMV Version NO.</string>
+    <string name="entryVersion">ENTRY Version NO.</string>
+    <string name="jcbVersion">JCB Version NO.</string>
+    <string name="mcVersion">MC Version NO.</string>
+    <string name="qpbocVersion">QPBOC Version NO.</string>
+    <string name="rupayVersion">RUPAY Version NO.</string>
+    <string name="waveVersion">WAVE Version NO.</string>
+    <string name="neptuneVersion">NeptuneLiteApi Version NO.</string>
+    <string name="glCommVersion">GLComm Version NO.</string>
+    <string name="glExprinterVersion">GLExtPrinter Version NO.</string>
+    <string name="glPackerVersion">GLPacker Version NO.</string>
+    <string name="glImgProcessingVersion">GLImgProcessing Version NO.</string>
+    <string name="glUtilsVersion">GLUtils Version NO.</string>
+    <string name="glBaiFuTongVersion">GLBaiFuTong Version NO.</string>
+    <string name="baselinkApiVersion">BaseLinkApi Version NO.</string>
+
+    <string name="create_log">Create New Log</string>
+    <string name="err_operation">App is updating, not allow operation</string>
+
+    <string name="err_card_bin_file_format_error">CardBin File Format Error!</string>
+    <string name="err_card_bin_file_not_exit">CardBin File Not Exit!</string>
+    <string name="err_param_list_empty">Param List Empty!</string>
+    <string name="err_insert_param_list">Insert Param List fail!</string>
+    <string name="err_parse_param_list">Parse Param List fail!</string>
+    <string name="err_backup_param_list">Backup Param List fail!</string>
+    <string name="err_is_not_numeric"> is not Numeric!</string>
+    <string name="turn_on_the_flash">Turn on Flash</string>
+    <string name="title_activity_q_r_code_scan_menu">Select Payment Channel</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="swith_demo_mode">Switch to demo mode</string>
+
+    <!-- DCC -->
+    <string name="dcc_title">Dynamic currency</string>
+    <string name="dcc_please_select_curr">Please select currency</string>
+    <string name="sale_pay">PAY</string>
+    <string name="sale_select_qr">QR</string>
+    <string name="sale_select_scan">Scan</string>
+    <string name="sale_select_card">Card</string>
+    <string name="query_select_action">Query</string>
+    <string name="query_last_transaction">Last Transaction</string>
+    <string name="query_suspended_transaction">Suspended Transaction</string>
+    <string name="query_any_transaction">Any Transaction</string>
+    <string name="trans_installment">Installment</string>
+    <string name="trans_query">Query</string>
+    <string name="trans_print">Print</string>
+    <string name="trans_report">Report</string>
+    <string name="trans_redeem">Redeem</string>
+    <string name="trans_point_inquiry">Point Inquiry</string>
+    
+    <string name="activity_details_installment_terms">Installment Term</string>
+    <string name="installment_product_code">Product Code</string>
+    <string name="installment_product_code_hint">(9 digits)</string>
+    <string name="installment_sn">Serial Number</string>
+    <string name="installment_sn_hint">(20 digits)</string>
+    <string name="install_0">Installment 0%</string>
+    <string name="install_fix">Installment Fixed Rate</string>
+    <string name="install_special">Installment Special</string>
+
+    <string name="redeem_normal">Redemption</string>
+    <string name="redeem_fix_rate">Redemption</string>
+    <string name="redeem_special">Specific Product</string>
+    <string name="redeem_voucher">Voucher</string>
+    <string name="redeem_point_credit">Point+Credit</string>
+    <string name="redeem_point">Redeem Point</string>
+    <string name="redeem_discount">Discount%</string>
+    <string name="point_enquiry">Point Inquiry</string>
+    <string name="redeem_quantity">Quantity</string>
+    <string name="redeem_quantity_hint">(4 digits)</string>
+    <string name="history_detail_point">Point</string>
+    <string name="tag30_register">Register Tag30</string>
+    <string name="qrcs_register">Register QRCS</string>
+    <string name="err_qrcs_register">Register QRCS failed</string>
+    <string name="err_tag30_register">Register Tag30 failed</string>
+    <string name="credit_total">Credit Total</string>
+    <string name="settle_suspended">Inquiry suspended QR?</string>
+    <string name="print_customer_copy">Print Customer Copy</string>
+    <string name="question_are_you_sure">Are you sure?</string>
+    <string name="exit_application">Exit app</string>
+</resources>

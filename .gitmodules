@@ -1,0 +1,6 @@
+[submodule "app/src/main/java/com/evp/config"]
+	path = app/src/main/java/com/evp/config
+	url = git@bitbucket.org:evo-payments/configmodule.git
+[submodule "app/src/main/java/com/evp/invoke"]
+	path = app/src/main/java/com/evp/invoke
+	url = git@bitbucket.org:evo-payments/invokemodule.git

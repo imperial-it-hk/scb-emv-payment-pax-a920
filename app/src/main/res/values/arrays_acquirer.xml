@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~
+  ~  ============================================================================
+  ~  PAX Computer Technology(Shenzhen) CO., LTD PROPRIETARY INFORMATION
+  ~  This software is supplied under the terms of a license agreement or nondisclosure
+  ~  agreement with PAX Computer Technology(Shenzhen) CO., LTD and may not be copied or
+  ~  disclosed except in accordance with the terms in that agreement.
+  ~      Copyright (C) 2019 -? PAX Computer Technology(Shenzhen) CO., LTD All rights reserved.
+  ~  Description:
+  ~  Revision History:
+  ~  Date	             Author	                Action
+  ~  20190220   	     ligq           	Create/Add/Modify/Delete
+  ~  ============================================================================
+  ~
+  -->
+
+<resources>
+    <!--parameters of Acquirer ↓-->
+    <string-array name="config_menu_acquirer_title">
+        <item>@string/settings_menu_acquirer_parameter</item>
+        <item>@string/acq_terminal_id</item>
+        <item>@string/acq_merchant_id</item>
+        <item>@string/acq_nii</item>
+        <item>@string/acq_batch_no</item>
+        <item>@string/acq_ip</item>
+        <item>@string/acq_port</item>
+        <item>@string/SSL</item>
+        <item>@string/acq_tle_enabled</item>
+        <item>@string/acq_tle_version</item>
+        <item>@string/acq_tle_nii</item>
+        <item>@string/acq_tle_kms_nii</item>
+        <item>@string/acq_tle_vendor_id</item>
+        <item>@string/acq_tle_acqid</item>
+        <item>@string/acq_tle_key_set_id</item>
+        <item>@string/acq_tle_te_id</item>
+        <item>@string/acq_tle_te_pin</item>
+        <item>@string/acq_tle_sensitive_fields</item>
+        <item>@string/alipay_terminal_id</item>
+        <item>@string/alipay_merchant_id</item>
+        <item>@string/alipay_acquirer</item>
+        <item>@string/wechat_terminal_id</item>
+        <item>@string/wechat_merchant_id</item>
+        <item>@string/wechat_acquirer</item>
+        <item>@string/tag30_terminal_id</item>
+        <item>@string/tag30_merchant_id</item>
+        <item>@string/tag30_biller_id</item>
+        <item>@string/tag30_merchant_name</item>
+        <item>@string/tag30_partner_code</item>
+        <item>@string/qrcs_terminal_id</item>
+        <item>@string/qrcs_merchant_id</item>
+        <item>@string/qrcs_partner_code</item>
+        <item>@string/inquiry_timeout</item>
+        <item>@string/inquiry_retries</item>
+    </string-array>
+    <!--config the item type:0 is normal,1 is switch-->
+    <integer-array name="config_menu_acquirer_type_switch">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>1</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </integer-array>
+    <!--config the item value:1 has value;0 has no value-->
+    <integer-array name="config_menu_acquirer_has_value">
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+    </integer-array>
+    <!--parameters of Acquirer ↑-->
+</resources>

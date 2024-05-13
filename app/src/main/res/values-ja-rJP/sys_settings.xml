@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- 系统设置 -->
+    <string name="settings_title">管理者設定</string>
+    <string name="settings_menu_communication_type">接続タイプ</string>
+    <string name="settings_menu_communication_parameter">接続設定</string>
+    <string name="settings_menu_edc_parameter">EDC</string>
+    <string name="settings_menu_issuer_parameter">カード会社</string>
+    <string name="settings_menu_acquirer_parameter">加盟店管理会社</string>
+    <string name="settings_menu_keyManage">キー</string>
+    <string name="settings_menu_pwd_manage">パスワード</string>
+    <string name="settings_menu_otherManage">その他</string>
+
+    <!-- 商户参数 -->
+
+    <string name="terminal_date_time" tools:keep="@string/terminal_date_time">端末 日/時:</string>
+    <string name="currency_list">通貨:</string>
+
+    <!-- 系统设置的通讯参数 -->
+    <string name="commParam_menu_comm_mode_choose">接続モードを選択:</string>
+    <string name="commParam_menu_comm_mode">接続タイプ</string>
+    <string name="commParam_menu_comm_timeout_prompt">接続タイムアウト時間を選択:</string>
+    <string name="commParam_menu_comm_timeout">接続タイムアウト</string>
+    <string name="communication_menu_mobile">モバイルネットワーク</string>
+    <string name="communication_menu_wifi">Wi-Fi</string>
+    <string name="edc_merchant_name">加盟店名</string>
+    <string name="edc_merchant_address">加盟店住所</string>
+    <string name="edc_connect_time">接続時間</string>
+    <string name="edc_ped_mode">Pedモード</string>
+    <string name="edc_clss_mode">Clss モード</string>
+    <string name="edc_ped_mode_prompt">Pedモードを選択:</string>
+    <string name="edc_receipt_no">レシート番号 #</string>
+    <string name="edc_trace_no">伝票番号.</string>
+    <string name="edc_stan_no">Stan No.</string>
+    <string name="edc_printer_type">プリンタータイプ</string>
+
+    <string name="edc_enable_tip">チップ</string>
+    <string name="edc_enable_paperless">ペーパーレス機能</string>
+    <string name="edc_smtp_host_name">SMTP・ホスト</string>
+    <string name="edc_smtp_port">SMTP・ポート</string>
+    <string name="edc_smtp_username">SMTP・ユーザーID</string>
+    <string name="edc_smtp_password">SMTP・パスワード</string>
+    <string name="edc_smtp_enable_ssl">SMTP・SSL</string>
+    <string name="edc_smtp_ssl_port">SMTP・SSLポート</string>
+    <string name="edc_smtp_from">SMTP・アドレス</string>
+    <string name="edc_enable_user_agreement">同意書を表示</string>
+    <string name="edc_enable_save_log">ログ情報の保存</string>
+    <string name="edc_enable_print_log">ログ情報の出力</string>
+
+    <!-- 通讯参数的移动网络 -->
+    <string name="commParam_menu_mobile_wifi_keep_alive">キープアライブ</string>
+    <string name="commParam_menu_mobile_dial_no">AP</string>
+    <string name="commParam_menu_mobile_apn">APN</string>
+    <string name="commParam_menu_mobile_need_user">ユーザー</string>
+    <string name="commParam_menu_mobile_username">ユーザー・ID</string>
+    <string name="commParam_menu_mobile_user_password">ユーザー・パスワード</string>
+
+    <!-- wifi status -->
+    <string name="wifi_scanning">スキャン中&#8230;</string>
+    <string name="wifi_connecting">接続中&#8230;</string>
+    <string name="wifi_authenticating">認証中&#8230;</string>
+    <string name="wifi_getting_ip">IPアドレス取得中&#8230;</string>
+    <string name="wifi_connected">接続完了</string>
+    <string name="wifi_paused">中止</string>
+    <string name="wifi_disconnecting">接続を切断中&#8230;</string>
+    <string name="wifi_disconnected">接続を切断</string>
+    <string name="wifi_failed">失敗</string>
+
+    <string name="open_wifi">Wi-Fi設定</string>
+    <string name="reset_bp60a">BP60Aをリセット</string>
+
+    <string name="long_connect">ロング接続</string>
+    <string name="short_connect">ショート接続</string>
+
+    <!-- 系统设置的终端密钥管理 -->
+    <string name="keyManage_menu_key_des_type_choose">キー・アルゴリズムを選択:</string>
+
+
+    <string name="keyManage_menu_tmk_index">マスターキー索引(0&#8211;99)</string>
+    <string name="keyManage_menu_des_type">DESアルゴリズム</string>
+    <string name="keyManage_menu_key_value">キーの手動インポート</string>
+    <string name="keyManage_menu_tmk_index_no">マスターキー（インポート）索引(0&#8211;99)</string>
+    <string name="keyManage_menu_tmk_value">マスターキー</string>
+    <string name="keyManage_menu_tpk_value">PINキー</string>
+    <string name="keyManage_menu_tak_value">MACキー</string>
+    <string name="keyManage_menu_index_err">キーの索引を入力してください</string>
+    <string name="keyManage_menu_update_key_success">キーのアップデートが成功しました</string>
+    <string name="keyManage_menu_update_key_error">キーのアップデートが失敗しました</string>
+
+    <!-- 系统设置的密码管理 -->
+
+    <string name="pwdManage_system">管理者パスワード</string>
+    <string name="pwdManage_safe">セキュリティパスワード</string>
+    <string name="input_old_password">古いパスワードをご入力ください</string>
+    <string name="input_new_password">新しいパスワードをご入力ください</string>
+    <string name="input_again_new_password">新しいパスワードを再入力</string>
+    <string name="error_input_length">桁数エラー</string>
+    <string name="error_old_password">古いパスワードが不正です</string>
+    <string name="error_password">新しいパスワードをご確認ください</string>
+    <string name="error_password_no_same">パスワード一致しません\nもう一度、ご入力ください</string>
+    <string name="password_modify_success">パスワード変更が成功しました</string>
+
+    <!-- 系统设置的其他管理 -->
+    <string name="otherManage_menu_clear_func">クリア機能</string>
+    <string name="otherManage_menu_download">ダウンロード機能</string>
+    <string name="otherManage_menu_para_print">パラメーターを印刷</string>
+    <string name="otherManage_menu_date_time">システム日時</string>
+
+    <string name="om_clearTrade_menu_reversal">リバーサルをクリア</string>
+    <string name="om_clearTrade_menu_clear_batch">Clear Batch</string>
+    <string name="om_clearTrade_menu_key">キーをクリア</string>
+
+    <string name="selfTest_succ">検証完了</string>
+
+    <string name="om_download_menu_echo_test">Echoテスト</string>
+
+    <string name="om_paramPrint_menu_print_aid_para">AIDパラメーター</string>
+    <string name="om_paramPrint_menu_print_capk_para">CAPKパラメーター</string>
+
+    <!-- 响应码错误提示语 -->
+    <string name="error_trade">取引失敗</string>
+    <string name="response_00">成功</string>
+    <string name="response_01">カード会社に連絡するようカード保有者に、お伝えください</string>
+    <string name="response_02">オフセールに失敗しました</string>
+    <string name="response_03">不正な加盟店です</string>
+    <string name="response_04">押収されたカードです</string>
+    <string name="response_05">カード保有者認証失敗</string>
+    <string name="response_08">ID承認</string>
+    <string name="response_09">ACCEPTED</string>
+    <string name="response_10">10 - Approved for partial amount</string>
+    <string name="response_11">Transaction Declined</string>
+    <string name="response_12">不正な取引</string>
+    <string name="response_13">不正な金額</string>
+    <string name="response_14">不正なカード番号</string>
+    <string name="response_19">もう一度、お試しください</string>
+    <string name="response_21">このカードは初期化されていないか、\nスリーピングカードです</string>
+    <string name="response_25">対象の取引情報がありません\nカード会社カードにお問い合わせください</string>
+    <string name="response_30">もう一度、お試しください</string>
+    <string name="response_31">31 - Bank not supported by switch</string>
+    <string name="response_41">紛失されたカードです\nカードを保管してください</string>
+    <string name="response_43">紛失されたカードです\nカードを保管してください</string>
+
+    <string name="response_51">残高が不足しています</string>
+    <string name="response_54">利用期限切れのカードです</string>
+    <string name="response_55">パスワードが不正です</string>
+    <string name="response_58">カード会社から、このPOS端末で取引は許可されていません</string>
+
+    <string name="response_60">加盟店です管理会社にお問い合わせください</string>
+
+    <string name="response_76">不正なプロダクトコードです</string>
+    <string name="response_77">調停エラー</string>
+    <string name="response_78">取引が見つかりませんでした</string>
+    <string name="response_79">79 - Declined - CVV2</string>
+    <string name="response_80">不正なバッチ番号です</string>
+    <string name="response_82">82 - No Closed Soc Slots</string>
+    <string name="response_83">83 - Not Supported Soc Slots</string>
+    <string name="response_85">バッチが見つかりませんでした</string>
+    <string name="response_88">承認, アメリカン・エキスプレスにお問い合わせください</string>
+    <string name="response_89">不正な端末番号です</string>
+
+    <string name="response_91">システムは利用不可です</string>
+    <string name="response_94">重複した取引です</string>
+    <string name="response_95">バッチ転送</string>
+    <string name="response_96">システムエラー</string>
+    <string name="response_97">利用不可なホストです</string>
+
+    <string name="response_N1">適切なDCCがありません</string>
+    <string name="response_Q1">カード認証失敗</string>
+    <string name="response_Y1">オフライン承認</string>
+    <string name="response_Z1">オフライン拒否</string>
+    <string name="response_Y2">承認済み</string>
+    <string name="response_Z2">拒否された取引</string>
+    <string name="response_Y3">オンライン移行失敗</string>
+    <string name="response_Z3">オンライン移行失敗</string>
+    <string name="response_NA">アップデートがありません</string>
+    <string name="response_P0">不正なシリアル番号です</string>
+    <string name="response_XY">重複した取引です</string>
+    <string name="response_XX">DCC、SGD、REQがありません</string>
+
+    <string name="response_unknown">システムエラー</string>
+
+    <string name="response_A0">A0 - KEK NOT FOUND</string>
+    <string name="response_A1">A1 - KEK NOT ACTIVE</string>
+    <string name="response_A2">A2 - KEK-SAM CARD DIFF</string>
+    <string name="response_A3">A3 - KEK-SAM NOT ACTIVE</string>
+    <string name="response_A4">A4 - TERM NOT ACTIVE</string>
+    <string name="response_A5">A5 - WRONG KCV</string>
+    <string name="response_A6">A6 - WRONG MAC</string>
+    <string name="response_A7">A7 - UNENCRYPTED</string>
+    <string name="response_A8">A8 - WRONG HANDLER</string>
+    <string name="response_A9">A9 - WRONG HANDLER</string>
+    <string name="response_B0">B0 - KEYDL INF INVALID</string>
+    <string name="response_B1">B1 - KEYDL INF HEADER</string>
+    <string name="response_B2">B2 - KEYDL INF VERSION</string>
+    <string name="response_B3">B3 - ACQ BDK NOT FOUND</string>
+    <string name="response_B4">B4 - DATABASE ERROR</string>
+    <string name="response_B5">B5 - ENC/DECRYPT FAIL</string>
+    <string name="response_B6">B6 - HOST SWITCHING ER</string>
+    <string name="response_B7">B7 - ENC DATA FMT ERR</string>
+    <string name="response_B8">B8 - ENC ALGO UNKNOWN</string>
+    <string name="response_B9">B9 - DDEK IND UNKNOWN</string>
+    <string name="response_C0">C0 - MAC ALGO UNKNOWN</string>
+    <string name="response_C1">C1 - WRONG ENC DATALEN</string>
+    <string name="response_C2">C2 - WRONG ENC DATA</string>
+    <string name="response_C3">C3 - MSG TOO LONG</string>
+    <string name="response_C4">C4 - HOST INVALID RESP</string>
+    <string name="response_C5">C5 - LONG HOST RESP</string>
+    <string name="response_C6">C6 - TCMK NOT FOUND</string>
+    <string name="response_C7">C7 - TE NOT FOUND</string>
+    <string name="response_C8">C8 - TE NOT ACTIVE</string>
+    <string name="response_C9">C9 - ACQ NOT FOUND</string>
+    <string name="response_D0">D0 - ACQ NOT ACTIVE</string>
+    <string name="response_D1">D1 - RNW ACQ NOT FOUND</string>
+    <string name="response_D2">D2 - RNW ACQ NOT ACTIVE</string>
+    <string name="response_D3">D3 - VENDOR NOT FOUND</string>
+    <string name="response_D4">D4 - LTMK ACQ MISMATCH</string>
+    <string name="response_D5">D5 - TCMK ACQ MISMATCH</string>
+    <string name="response_D9">D9 - TXN NOT ALLOW</string>
+    <string name="response_E0">E0 - KEY NOT FOUND</string>
+    <string name="response_K0">K0 - UNEXPECTED ERROR</string>
+    <string name="response_KA">KA - PLS RNW TCMK ACQ</string>
+    <string name="response_KB">KB - PLS RNW LTMK ACQ</string>
+    <string name="response_KC">KC - PLS RNW LTWK ACQ</string>
+    <string name="response_KD">KD - FORCE RELOAD LTMK</string>
+    <string name="response_KE">KE - FORCE RELOAD LTWK</string>
+
+    <!--  -->
+    <string name="sale_set">売上</string>
+    <string name="preAuthorization">事前承認</string>
+    <string name="support">サポート</string>
+    <string name="not_support">サポートされていません</string>
+    <string name="need">必要</string>
+    <string name="not_need">不必要</string>
+    <string name="yes">はい</string>
+    <string name="no">いいえ</string>
+    <string name="form">空白Form</string>
+    <string name="new_form">新たな</string>
+    <string name="input_len_err">入力桁数エラー</string>
+    <string name="input_has_chinese">入力された内容に漢字が含まれています</string>
+    <string name="input_err">入力エラー</string>
+    <string name="transType_sale">売上</string>
+    <string name="transType_void">取消</string>
+    <string name="transType_refund">返金</string>
+    <string name="transType_auth">事前承認</string>
+    <string name="transType_offline">オフライン</string>
+    <string name="transType_print">印刷</string>
+    <string name="transType_manage">管理</string>
+    <string name="transType_others">その他</string>
+
+</resources>

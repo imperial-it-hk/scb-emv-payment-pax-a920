@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?><!-- DO NOT TRANSLATE THIS FILE --><!-- DO NOT TRANSLATE THIS FILE --><!-- DO NOT TRANSLATE THIS FILE -->
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+    <string name="COMM_TYPE">COMM_TYPE</string>
+    <string name="COMM_TIMEOUT">COMM_TIMEOUT</string>
+
+    <string name="MOBILE_KEEP_ALIVE">MOBILE_KEEP_ALIVE</string>
+    <string name="MOBILE_TEL_NO">MOBILE_TEL_NO</string>
+    <string name="MOBILE_APN">MOBILE_APN</string>
+    <string name="MOBILE_NEED_USER">MOBILE_NEED_USER</string>
+    <string name="MOBILE_USER">MOBILE_USER</string>
+    <string name="MOBILE_PWD">MOBILE_PWD</string>
+    <string name="MOBILE_LOGIN_WAIT_TIME">MOBILE_LOGIN_WAIT_TIME</string>
+    <string name="MOBILE_HOST_PORT">MOBILE_HOST_PORT</string>
+    <string name="MOBILE_HOST_PORT_BAK">MOBILE_HOST_PORT_BAK</string>
+    <string name="MOBILE_SIM_PIN">MOBILE_SIM_PIN</string>
+    <string name="MOBILE_AUTH">MOBILE_AUTH</string>
+    <string name="MOBILE_HOST_IP">MOBILE_HOST_IP</string>
+    <string name="MOBILE_HOST_IP_BAK">MOBILE_HOST_IP_BAK</string>
+    <string name="MOBILE_DOMAIN_NAME">MOBILE_DOMAIN_NAME</string>
+
+    <string name="LAN_LOCAL_IP">LAN_LOCAL_IP</string>
+    <string name="LAN_NETMASK">LAN_NETMASK</string>
+    <string name="LAN_GATEWAY">LAN_GATEWAY</string>
+    <string name="LAN_DNS1">LAN_DNS1</string>
+    <string name="LAN_DNS2">LAN_DNS2</string>
+    <string name="LAN_HOST_IP">LAN_HOST_IP</string>
+    <string name="LAN_HOST_IP_BAK">LAN_HOST_IP_BAK</string>
+    <string name="LAN_HOST_PORT">LAN_HOST_PORT</string>
+    <string name="LAN_HOST_PORT_BAK">LAN_HOST_PORT_BAK</string>
+
+    <string name="COMM_REDIAL_TIMES">COMM_REDIAL_TIMES</string>
+    <string name="EDC_REVERSAL_RETRY">EDC_REVERSAL_RETRY</string>
+    <string name="MAX_TRANS_COUNT">MAX_TRANS_COUNT</string>
+
+    <string name="OFFLINE_TC_UPLOAD_TIMES">OFFLINE_TC_UPLOAD_TIMES</string>
+    <string name="OFFLINE_TC_UPLOAD_NUM">OFFLINE_TC_UPLOAD_NUM</string>
+
+    <string name="QUICK_PASS_TRANS_PIN_FREE_AMOUNT">QUICK_PASS_TRANS_PIN_FREE_AMOUNT</string>
+    <string name="QUICK_PASS_TRANS_SIGN_FREE_AMOUNT">QUICK_PASS_TRANS_SIGN_FREE_AMOUNT</string>
+
+    <string name="EDC_MERCHANT_NAME_EN">EDC_MERCHANT_NAME_EN</string>
+    <string name="EDC_MERCHANT_ADDRESS">EDC_MERCHANT_ADDRESS</string>
+    <string name="EDC_CURRENCY_LIST">EDC_CURRENCY_LIST</string>
+    <string name="EDC_PED_MODE">EDC_PED_MODE</string>
+    <string name="EDC_CLSS_MODE">EDC_CLSS_MODE</string>
+    <string name="EDC_RECEIPT_NUM">EDC_RECEIPT_NUM</string>
+    <string name="EDC_TRACE_NO">EDC_TRACE_NO</string>
+    <string name="EDC_STAN_NO">EDC_STAN_NO</string>
+    <string name="EDC_SUPPORT_TIP">EDC_SUPPORT_TIP</string>
+    <string name="EDC_SUPPORT_KEYIN">EDC_SUPPORT_KEYIN</string>
+    <string name="SUPPORT_USER_AGREEMENT">SUPPORT_USER_AGREEMENT</string>
+    <string name="EDC_ENABLE_PAPERLESS">EDC_ENABLE_PAPERLESS</string>
+    <string name="EDC_SMTP_HOST">EDC_SMTP_HOST</string>
+    <string name="EDC_SMTP_PORT">EDC_SMTP_PORT</string>
+    <string name="EDC_SMTP_USERNAME">EDC_SMTP_USERNAME</string>
+    <string name="EDC_SMTP_PASSWORD">EDC_SMTP_PASSWORD</string>
+    <string name="EDC_SMTP_ENABLE_SSL">EDC_SMTP_ENABLE_SSL</string>
+    <string name="EDC_SMTP_SSL_PORT">EDC_SMTP_SSL_PORT</string>
+    <string name="EDC_SMTP_FROM">EDC_SMTP_FROM</string>
+    <string name="EDC_ENABLE_SAVE_LOG">EDC_ENABLE_SAVE_LOG</string>
+    <string name="EDC_ENABLE_PRINT_LOG">EDC_ENABLE_PRINT_LOG</string>
+    <string name="EDC_PRINTER_TYPE">EDC_PRINTER_TYPE</string>
+
+    <string name="MK_INDEX">MK_INDEX</string>
+    <string name="KEY_ALGORITHM">KEY_ALGORITHM</string>
+    <string name="MK_INDEX_MANUAL">MK_INDEX_MANUAL</string>
+    <string name="MK_VALUE">MK_VALUE</string>
+    <string name="PK_VALUE">PK_VALUE</string>
+    <string name="AK_VALUE">AK_VALUE</string>
+
+    <string name="ACQ_NAME">ACQ_NAME</string>
+
+    <string name="SEC_SYS_PWD">SEC_SYS_PWD</string>
+    <string name="SEC_MERCHANT_PWD">SEC_MERCHANT_PWD</string>
+    <string name="SEC_TERMINAL_PWD">SEC_TERMINAL_PWD</string>
+    <string name="SEC_VOID_PWD">SEC_VOID_PWD</string>
+    <string name="SEC_REFUND_PWD">SEC_REFUND_PWD</string>
+    <string name="SEC_ADJUST_PWD">SEC_ADJUST_PWD</string>
+    <string name="SEC_SETTLE_PWD">SEC_SETTLE_PWD</string>
+
+    <string name="LAN_DHCP">LAN_DHCP</string>
+
+    <string name="OTHTC_VERIFY">OTHTC_VERIFY</string>
+    <string name="QUICK_PASS_TRANS_PIN_FREE_SWITCH">QUICK_PASS_TRANS_PIN_FREE_SWITCH</string>
+    <string name="QUICK_PASS_TRANS_FLAG">QUICK_PASS_TRANS_FLAG</string>
+    <string name="QUICK_PASS_TRANS_SWITCH">QUICK_PASS_TRANS_SWITCH</string>
+    <string name="QUICK_PASS_TRANS_CDCVM_FLAG">QUICK_PASS_TRANS_CDCVM_FLAG</string>
+    <string name="QUICK_PASS_TRANS_SIGN_FREE_FLAG">QUICK_PASS_TRANS_SIGN_FREE_FLAG</string>
+
+    <string name="TTS_SALE">TTS_SALE</string>
+    <string name="TTS_VOID">TTS_VOID</string>
+    <string name="TTS_REFUND">TTS_REFUND</string>
+    <string name="TTS_PREAUTH">TTS_PREAUTH</string>
+    <string name="TTS_ADJUST">TTS_ADJUST</string>
+
+    <string name="BT_MAC_ADDRESS">BT_MAC_ADDRESS</string>
+    <string name="RESULT_READER_TYPE">result_reader_type</string>
+
+    <string name="LOG_FILE_INDEX">LOG_FILE_INDEX</string>
+</resources>

@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- 系统设置 -->
+    <string name="settings_title">Config</string>
+    <string name="settings_menu_communication_type">Communication Type</string>
+    <string name="settings_menu_communication_parameter">Comm</string>
+    <string name="settings_menu_edc_parameter">EDC</string>
+    <string name="settings_menu_issuer_parameter">Issuer</string>
+    <string name="settings_menu_acquirer_parameter">Acquirer</string>
+    <string name="settings_menu_keyManage">Key</string>
+    <string name="settings_menu_pwd_manage">Password</string>
+    <string name="settings_menu_otherManage">Other</string>
+
+    <!-- 商户参数 -->
+
+    <string name="terminal_date_time" tools:keep="@string/terminal_date_time">Terminal Date/Time:</string>
+    <string name="currency_list">Currency:</string>
+
+    <!-- 系统设置的通讯参数 -->
+    <string name="commParam_menu_comm_mode_choose">Please Choose Comm Mode:</string>
+    <string name="commParam_menu_comm_mode">Communication Type</string>
+    <string name="commParam_menu_comm_timeout_prompt">Please Choose Comm Timeout:</string>
+    <string name="commParam_menu_comm_timeout">Comm Timeout</string>
+    <string name="communication_menu_mobile">Mobile Network</string>
+    <string name="communication_menu_wifi">Wifi</string>
+    <string name="edc_merchant_name">Merchant Name</string>
+    <string name="edc_merchant_address">Merchant Address</string>
+    <string name="edc_connect_time">Connect time</string>
+    <string name="edc_ped_mode">Ped mode</string>
+    <string name="edc_clss_mode">Clss Mode</string>
+    <string name="edc_ped_mode_prompt">Please Choose Ped mode:</string>
+    <string name="edc_receipt_no">Receipt #</string>
+    <string name="edc_trace_no">Trace No.</string>
+    <string name="edc_stan_no">Stan No.</string>
+
+    <string name="edc_enable_tip">Enable Tip</string>
+    <string name="edc_enable_paperless">Enable Paperless</string>
+    <string name="edc_smtp_host_name">SMTP Host</string>
+    <string name="edc_smtp_port">SMTP Port</string>
+    <string name="edc_smtp_username">SMTP Auth User Name</string>
+    <string name="edc_smtp_password">SMTP Auth Password</string>
+    <string name="edc_smtp_enable_ssl">SMTP Enable SSL</string>
+    <string name="edc_smtp_ssl_port">SMTP SSL Port</string>
+    <string name="edc_smtp_from">SMTP From Address</string>
+    <string name="edc_enable_user_agreement">Show Agreement</string>
+    <string name="edc_enable_save_log">Enable Save Log</string>
+    <string name="edc_enable_print_log">Enable Print Log</string>
+    <string name="edc_printer_type">Printer Type</string>
+
+    <!-- 通讯参数的移动网络 -->
+    <string name="commParam_menu_mobile_wifi_keep_alive">Keep Alive</string>
+    <string name="commParam_menu_mobile_dial_no">AP</string>
+    <string name="commParam_menu_mobile_apn">APN</string>
+    <string name="commParam_menu_mobile_need_user">Need User</string>
+    <string name="commParam_menu_mobile_username">User Name</string>
+    <string name="commParam_menu_mobile_user_password">User Password</string>
+
+    <!-- wifi status -->
+    <string name="wifi_scanning">Scanning&#8230;</string>
+    <string name="wifi_connecting">Connecting&#8230;</string>
+    <string name="wifi_authenticating">Authenticating&#8230;</string>
+    <string name="wifi_getting_ip">Getting IP&#8230;</string>
+    <string name="wifi_connected">Connected</string>
+    <string name="wifi_paused">Paused</string>
+    <string name="wifi_disconnecting">Disconnecting&#8230;</string>
+    <string name="wifi_disconnected">Disconnected</string>
+    <string name="wifi_failed">Failed</string>
+
+    <string name="open_wifi">Open Wifi Setting</string>
+    <string name="reset_bp60a">Reset BP60A</string>
+
+    <string name="long_connect">Long Connect</string>
+    <string name="short_connect">Short Connect</string>
+
+    <!-- 系统设置的终端密钥管理 -->
+    <string name="keyManage_menu_key_des_type_choose">Please Choose key Algorithm:</string>
+
+
+    <string name="keyManage_menu_tmk_index">Master Key Index(0&#8211;99)</string>
+    <string name="keyManage_menu_des_type">DES Algorithm</string>
+    <string name="keyManage_menu_key_value">Import Key Manually</string>
+    <string name="keyManage_menu_tmk_index_no">Master Key(Import) Index(0&#8211;99)</string>
+    <string name="keyManage_menu_tmk_value">Master Key</string>
+    <string name="keyManage_menu_tpk_value">PIN Key</string>
+    <string name="keyManage_menu_tak_value">MAC Key</string>
+    <string name="keyManage_menu_index_err">Please Input Key Index</string>
+    <string name="keyManage_menu_update_key_success">Update Key Success</string>
+    <string name="keyManage_menu_update_key_error">Update Key Fail</string>
+
+    <!-- 系统设置的密码管理 -->
+
+    <string name="pwdManage_system">Administrator Password</string>
+    <string name="pwdManage_safe">Security Password</string>
+    <string name="input_old_password">Please Input Old Password</string>
+    <string name="input_new_password">Please Input New Password</string>
+    <string name="input_again_new_password">Confirm New Password</string>
+    <string name="error_input_length">Length Error</string>
+    <string name="error_old_password">Old Password Error</string>
+    <string name="error_password">Password Error</string>
+    <string name="error_password_no_same">Password Not Match\nPlease Input Again</string>
+    <string name="password_modify_success">Modify Password Success</string>
+
+    <!-- 系统设置的其他管理 -->
+    <string name="otherManage_menu_clear_func">Clear Function</string>
+    <string name="otherManage_menu_download">Download Function</string>
+    <string name="otherManage_menu_para_print">Parameter Print</string>
+    <string name="otherManage_menu_date_time">System Date Time</string>
+
+    <string name="om_clearTrade_menu_reversal">Clear Reversal</string>
+    <string name="om_clearTrade_menu_clear_batch">Clear Batch</string>
+    <string name="om_clearTrade_menu_key">Clear Key</string>
+
+    <string name="selfTest_succ">SelfTest Success</string>
+
+    <string name="om_download_menu_echo_test">Echo Test</string>
+
+    <string name="om_paramPrint_menu_print_aid_para">AID Parameter</string>
+    <string name="om_paramPrint_menu_print_capk_para">CAPK Parameter</string>
+
+    <!-- 响应码错误提示语 -->
+    <string name="error_trade">Trade Fail</string>
+    <string name="response_00">00 - Approved</string>
+    <string name="response_01">Error code 01 - Please Call help</string>
+    <string name="response_02">Error code 02 - Referral</string>
+    <string name="response_03">Error code 03 - Call help - SN</string>
+    <string name="response_04">Error code 04 - Call Help - IC</string>
+    <string name="response_05">Error code 05 - Do Not Honour</string>
+    <string name="response_08">Error code 08 - Call Help - IC</string>
+    <string name="response_09">Error code 09 - Accepted</string>
+    <string name="response_10">Error code 10 - Balance Due</string>
+    <string name="response_11">Error code 11 - Call Help - IC</string>
+    <string name="response_12">Error code 12 - Invalid transaction</string>
+    <string name="response_13">Error code 13 - Call Help - AM</string>
+    <string name="response_14">Error code 14 - Call Help - RE</string>
+    <string name="response_19">Error code 19 - Re-enter transaction</string>
+    <string name="response_21">Error code 21 - Call Help - IC</string>
+    <string name="response_25">Error code 25 - Call Help - NT</string>
+    <string name="response_30">Error code 30 - Call Help - FE</string>
+    <string name="response_31">Error code 31 - Call Help - NS</string>
+    <string name="response_41">Error code 41 - Please Call - LC</string>
+    <string name="response_43">Error code 43 - Please Call - CC</string>
+    <string name="response_51">Error code 51 - Declined</string>
+    <string name="response_54">Error code 54 - Expired Card</string>
+    <string name="response_55">Incorrect PIN</string>
+    <string name="response_58">Error code 58 - Invalid Transaction</string>
+    <string name="response_60">Error code 60 - Transaction Declined</string>
+    <string name="response_76">Error code 76 - Call Help - DC</string>
+    <string name="response_77">Error code 77 - Reconcile Error</string>
+    <string name="response_78">Error code 78 - Transaction not found</string>
+    <string name="response_79">Error code 79 - Declined - CVV2</string>
+    <string name="response_80">Error code 80 - Bad Batch Number</string>
+    <string name="response_82">Error code 82 - No Closed Soc Slots</string>
+    <string name="response_83">Error code 83 - Not Supported Soc Slots</string>
+    <string name="response_85">Error code 85 - Batch Not Found</string>
+    <string name="response_88">Error code 88 - Call Help - IC</string>
+    <string name="response_89">Error code 89 - Bad terminal ID</string>
+    <string name="response_91">Error code 91 - Call Help - NA</string>
+    <string name="response_94">Error code 94 - Call Help - SQ</string>
+    <string name="response_95">Error code 95 - Batch Transfer, Wait</string>
+    <string name="response_96">Error code 96 - Call Help - SE</string>
+    <string name="response_97">Error code 97 - Call Help - IC</string>
+
+    <string name="response_N1">Not DCC Eligible</string>
+    <string name="response_Q1">CARD AUTH FAIL</string>
+    <string name="response_Y1">OFFLINE APPROVAL</string>
+    <string name="response_Z1">OFFLINE DECLINE</string>
+    <string name="response_Y2">APPROVED</string>
+    <string name="response_Z2">DECLINED</string>
+    <string name="response_Y3">GO ONLINE FAIL</string>
+    <string name="response_Z3">GO ONLINE FAIL</string>
+    <string name="response_NA">NO UPDATE</string>
+    <string name="response_P0">ERROR SERIAL NO.</string>
+    <string name="response_XY">Duplicate Trans</string>
+    <string name="response_XX">NO DCC SGD REQ</string>
+
+    <string name="response_unknown">System Error</string>
+
+    <string name="response_A0">A0 - KEK NOT FOUND</string>
+    <string name="response_A1">A1 - KEK NOT ACTIVE</string>
+    <string name="response_A2">A2 - KEK-SAM CARD DIFF</string>
+    <string name="response_A3">A3 - KEK-SAM NOT ACTIVE</string>
+    <string name="response_A4">A4 - TERM NOT ACTIVE</string>
+    <string name="response_A5">A5 - WRONG KCV</string>
+    <string name="response_A6">A6 - WRONG MAC</string>
+    <string name="response_A7">A7 - UNENCRYPTED</string>
+    <string name="response_A8">A8 - WRONG HANDLER</string>
+    <string name="response_A9">A9 - WRONG HANDLER</string>
+    <string name="response_B0">B0 - KEYDL INF INVALID</string>
+    <string name="response_B1">B1 - KEYDL INF HEADER</string>
+    <string name="response_B2">B2 - KEYDL INF VERSION</string>
+    <string name="response_B3">B3 - ACQ BDK NOT FOUND</string>
+    <string name="response_B4">B4 - DATABASE ERROR</string>
+    <string name="response_B5">B5 - ENC/DECRYPT FAIL</string>
+    <string name="response_B6">B6 - HOST SWITCHING ER</string>
+    <string name="response_B7">B7 - ENC DATA FMT ERR</string>
+    <string name="response_B8">B8 - ENC ALGO UNKNOWN</string>
+    <string name="response_B9">B9 - DDEK IND UNKNOWN</string>
+    <string name="response_C0">C0 - MAC ALGO UNKNOWN</string>
+    <string name="response_C1">C1 - WRONG ENC DATALEN</string>
+    <string name="response_C2">C2 - WRONG ENC DATA</string>
+    <string name="response_C3">C3 - MSG TOO LONG</string>
+    <string name="response_C4">C4 - HOST INVALID RESP</string>
+    <string name="response_C5">C5 - LONG HOST RESP</string>
+    <string name="response_C6">C6 - TCMK NOT FOUND</string>
+    <string name="response_C7">C7 - TE NOT FOUND</string>
+    <string name="response_C8">C8 - TE NOT ACTIVE</string>
+    <string name="response_C9">C9 - ACQ NOT FOUND</string>
+    <string name="response_D0">D0 - ACQ NOT ACTIVE</string>
+    <string name="response_D1">D1 - RNW ACQ NOT FOUND</string>
+    <string name="response_D2">D2 - RNW ACQ NOT ACTIVE</string>
+    <string name="response_D3">D3 - VENDOR NOT FOUND</string>
+    <string name="response_D4">D4 - LTMK ACQ MISMATCH</string>
+    <string name="response_D5">D5 - TCMK ACQ MISMATCH</string>
+    <string name="response_D9">D9 - TXN NOT ALLOW</string>
+    <string name="response_E0">E0 - KEY NOT FOUND</string>
+    <string name="response_K0">K0 - UNEXPECTED ERROR</string>
+    <string name="response_KA">KA - PLS RNW TCMK ACQ</string>
+    <string name="response_KB">KB - PLS RNW LTMK ACQ</string>
+    <string name="response_KC">KC - PLS RNW LTWK ACQ</string>
+    <string name="response_KD">KD - FORCE RELOAD LTMK</string>
+    <string name="response_KE">KE - FORCE RELOAD LTWK</string>
+
+    <!--  -->
+    <string name="sale_set">Sale</string>
+    <string name="preAuthorization">Pre-authorization</string>
+    <string name="support">Support</string>
+    <string name="not_support">Not Support</string>
+    <string name="need">Need</string>
+    <string name="not_need">Not Need</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="form">Blank Form</string>
+    <string name="new_form">New</string>
+    <string name="input_len_err">Input Length Error</string>
+    <string name="input_has_chinese">Input Has Chinese</string>
+    <string name="input_err">Input Error</string>
+    <string name="transType_sale">Sale</string>
+    <string name="transType_void">Void</string>
+    <string name="transType_refund">Refund</string>
+    <string name="transType_auth">Pre-authorization</string>
+    <string name="transType_offline">Offline</string>
+    <string name="transType_print">Print</string>
+    <string name="transType_manage">Manage</string>
+    <string name="transType_others">Others</string>
+
+</resources>

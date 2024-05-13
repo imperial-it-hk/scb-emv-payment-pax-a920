@@ -1,0 +1,24 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 清除功能 -->
+    <PreferenceCategory android:title="@string/otherManage_menu_clear_func">
+        <Preference android:title="@string/om_clearTrade_menu_reversal" />
+        <Preference android:title="@string/om_clearTrade_menu_clear_batch" />
+        <Preference android:title="@string/om_clearTrade_menu_key" />
+    </PreferenceCategory>
+
+    <!-- 下载功能 -->
+    <PreferenceCategory android:title="@string/otherManage_menu_download">
+        <Preference android:title="@string/om_download_menu_echo_test" />
+    </PreferenceCategory>
+
+    <!-- 参数打印 -->
+    <PreferenceCategory android:title="@string/otherManage_menu_para_print">
+        <Preference android:title="@string/om_paramPrint_menu_print_aid_para" />
+        <Preference android:title="@string/om_paramPrint_menu_print_capk_para" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/otherManage_menu_date_time">
+        <Preference android:title="@string/go_system_setting_date" />
+    </PreferenceCategory>
+</PreferenceScreen>

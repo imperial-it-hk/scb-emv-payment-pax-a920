@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="edc_ped_mode_entries">
+        <item>Internal</item>
+        <item>ExternalTypeA</item>
+        <item>ExternalTypeB</item>
+        <item>ExternalTypeC</item>
+        </string-array>
+    <string-array name="edc_clss_mode_entries">
+        <item>Internal</item>
+        <item>External</item>
+        <item>Both Internal And External</item>
+    </string-array>
+</resources>

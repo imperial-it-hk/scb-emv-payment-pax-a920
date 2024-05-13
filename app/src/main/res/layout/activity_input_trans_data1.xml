@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="@dimen/space_horizontal"
+    android:paddingRight="@dimen/space_horizontal"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/prompt_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/space_vertical"
+        android:layout_marginTop="@dimen/space_vertical"
+        android:text="@string/prompt_input_transno"
+        android:textSize="@dimen/font_size_prompt"
+        android:textColor="@color/primary_text_light" />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="65dp">
+            <com.evp.view.keyboard.CustomKeyboardEditText
+                android:id="@+id/input_data_1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/edit_height"
+                android:background="@drawable/edit_frame"
+                android:gravity="start|center_vertical"
+                android:inputType="text"
+                android:textSize="@dimen/font_edit_text"
+                app:keepKeyboardOn="true"
+                app:xml="@xml/numeric_keyboard_confirm" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="65dp">
+        <EditText
+            android:id="@+id/ref_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/edit_height"
+            android:background="@drawable/edit_frame"
+            android:gravity="start|center_vertical"
+            android:inputType="textPersonName"
+            android:textSize="@dimen/font_edit_text" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+    <ImageButton
+        android:id="@+id/scan_code_btn"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="280dp"
+        android:elevation="100dp"
+        android:background="@drawable/scanner" />
+    </FrameLayout>
+    <TextView
+        android:id="@+id/prompt_do_last"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/tip"
+        android:layout_marginTop="@dimen/space_vertical_small"
+        android:gravity="center_vertical"
+        android:text="@string/prompt_get_last"
+        android:textColor="@color/secondary_text_light"
+        android:textSize="@dimen/font_size_hint" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="30dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/cancel_btn"
+            android:layout_width="130dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="@dimen/space_vertical_large"
+            android:background="@drawable/cancelbtn"
+            android:text="@string/cancel"
+            android:textColor="@color/default_red_cancel_btn"
+            android:textSize="@dimen/btn" />
+
+        <Button
+            android:id="@+id/info_confirm"
+            android:layout_width="130dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="@dimen/space_vertical_large"
+            android:background="@drawable/confirmbtn"
+            android:text="@string/dialog_ok"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/default_confirm_text_btn"
+            android:textSize="@dimen/btn" />
+    </LinearLayout>
+
+</LinearLayout>

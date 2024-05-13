@@ -1,0 +1,7 @@
+<resources>
+    <dimen name="space_horizontal">72dp</dimen>
+
+    <dimen name="receipt_preview_padding_bottom">24dp</dimen>
+    <dimen name="receipt_preview_start_end">30dp</dimen>
+    <dimen name="receipt_preview_width">280dp</dimen>
+</resources>

@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">EVPSCB</string>
+    <string name="app_name_test">EVP Test</string>
+
+    <!-- Base -->
+    <string name="num_0">0</string>
+    <string name="num_1">1</string>
+    <string name="num_2">2</string>
+    <string name="num_3">3</string>
+    <string name="num_4">4</string>
+    <string name="num_5">5</string>
+    <string name="num_6">6</string>
+    <string name="num_7">7</string>
+    <string name="num_8">8</string>
+    <string name="num_9">9</string>
+    <string name="num_00">00</string>
+    <string name="num_000">000</string>
+
+    <string name="dateTime">日時</string>
+    <string name="placeholder">:)</string>
+    <string name="sec">秒</string>
+    <string name="ad">広告</string>
+    <string name="ad_widget_label">広告</string>
+    <string name="amount_widget_label">金額</string>
+    <string name="go_system_setting_date">システム時間設定</string>
+
+    <!-- to be sorted -->
+    <string name="base_amount">金額</string>
+    <string name="total_amount">合計金額</string>
+    <string name="tip_amount">チップ金額</string>
+    <string name="trans_oriDate">対象取引日</string>
+    <string name="has_trans_for_settle">先に決済を行ってください</string>
+    <string name="amount_default">0</string>
+    <string name="quick_pass_sale_free_pin">Sale by PIN</string>
+    <string name="amount_confirmation">Amount Confirmation</string>
+    <string name="demo_mode">**** デモ ****</string>
+    <string name="paperless">プリント用紙がありません</string>
+
+    <!-- Transaction Type -->
+    <string name="trans_sale">売上</string>
+    <string name="trans_void">取消</string>
+    <string name="trans_adjust">調整</string>
+    <string name="trans_offline">オフライン</string>
+    <string name="trans_preAuth">事前承認</string>
+    <string name="trans_refund">返金</string>
+    <string name="trans_preAuthCancel">Pre-Auth Cancellation</string>
+    <string name="trans_preAuthComplete">Pre-Auth Completion</string>
+    <string name="trans_echo">Echo機能</string>
+    <string name="trans_settle">決済</string>
+    <string name="trans_batch_up">バッチ・アップロード</string>
+    <string name="trans_settle_end">決済完了</string>
+    <string name="trans_offline_send">オフライン</string>
+    <string name="trans_history">取引履歴</string>
+    <string name="trans_password">パスワード</string>
+    <string name="trans_signature">署名</string>
+    <string name="trans_user_agreement">ユーザー認証</string>
+    <string name="trans_reprint">再印刷</string>
+    <string name="trans_manage">管理</string>
+    <string name="trans_scan">スキャン</string>
+    <string name="print_menu">印刷</string>
+
+    <!-- Transaction History-->
+    <string name="history_total">集計</string>
+    <string name="history_detail">明細</string>
+    <string name="history_detail_type">取引区分</string>
+    <string name="history_detail_issuer">カード種別</string>
+    <string name="history_detail_card_no">カード番号</string>
+    <string name="history_detail_amount">金額</string>
+    <string name="history_detail_auth_code">認証番号</string>
+    <string name="history_detail_trace_no">伝票番号</string>
+    <string name="history_detail_ref_no">参照番号</string>
+    <string name="history_detail_state">取引結果</string>
+    <string name="history_summary_ref_no">参照番号:</string>
+    <string name="history_menu_search">検索</string>
+    <string name="history_menu_print_trans_last">直前の取引を印刷</string>
+    <string name="history_menu_print_trans_detail">取引明細を印刷</string>
+    <string name="history_menu_print_trans_total">取引集計を印刷</string>
+    <string name="history_menu_print_last_total">直前の決済を印刷</string>
+    <string name="wallet">Wallet</string>
+    <string name="last_transaction">Last Transaction</string>
+    <string name="suspended_qr">Suspended QR</string>
+    <string name="any_transaction">Any Transaction</string>
+
+    <!-- QR Payment -->
+    <string name="alipay">Alipay</string>
+    <string name="wechat">Wechat</string>
+    <string name="prompt_pay">PromptPay</string>
+    <string name="line_pay">LinePay</string>
+    <string name="true_money">TrueMoney</string>
+    <string name="shopee">Shopee</string>
+    <string name="dolfin">Dolfin</string>
+    <string name="qrcs">QRCS</string>
+
+    <!-- Transaction State -->
+    <string name="state_normal">正常</string>
+    <string name="state_voided">返金・済み</string>
+    <string name="state_adjusted">調整・済み</string>
+    <string name="state_uploaded">アップロード・済み</string>
+    <string name="state_not_sent">未送信</string>
+    <string name="state_sent_error">エラーの送信</string>
+    <string name="state_response_error">応答エラー</string>
+    <string name="state_unknow_error">不明なエラー</string>
+
+    <!-- Settlement -->
+    <string name="settle_acquirer_name">加盟店管理会社</string>
+    <string name="settle_merchant_name">加盟店名</string>
+    <string name="settle_merchant_id">加盟店番号</string>
+    <string name="settle_terminal_id">端末番号</string>
+    <string name="settle_batch_id">バッチID</string>
+    <string name="settle_trans_type">取引区分</string>
+    <string name="settle_trans_times">取引時間</string>
+    <string name="settle_amount">金額</string>
+    <string name="settle_print_detail_or_not">取引明細を印刷しますか？</string>
+    <string name="settle_print_fail_detail_or_not">取引失敗明細を印刷しますか？</string>
+    <string name="settle_select_acquirer">加盟店管理会社を選択</string>
+    <string name="settle_total_void_sale">売上・取消</string>
+    <string name="settle_total_void_refund">返金・取消</string>
+    <string name="settle_all_selected">決済</string>
+    <string name="settle_total_offline">オフライン</string>
+    <string name="settle_settled">決済・済み</string>
+
+    <!-- Password Management -->
+    <string name="pwd_merchant">加盟店</string>
+    <string name="pwd_terminal">端末</string>
+    <string name="pwd_void">取消</string>
+    <string name="pwd_refund">返金</string>
+    <string name="pwd_adjust">調整</string>
+    <string name="pwd_settle">決済</string>
+    <string name="pwd_old_pwd">古いパスワード</string>
+    <string name="pwd_new_pwd">新しいパスワード</string>
+    <string name="pwd_not_equal">パスワードが一致しません\nもう一度、ご入力ください</string>
+    <string name="pwd_verify_new_pwd">新しいパスワードを再入力</string>
+    <string name="pwd_succ">成功</string>
+    <string name="pwd_incorrect_length">６桁の数字をご入力ください</string>
+
+    <!-- signature -->
+    <string name="signature_clear">クリア</string>
+    <string name="signature_done">確認</string>
+    <string name="signature_redo">もう一度、ご署名ください</string>
+
+    <!-- User Agreement -->
+    <string name="user_agreement_agree">同意</string>
+
+    <!-- print -->
+    <string name="print_history_detail">取引明細</string>
+    <string name="print_settle_detail">決済明細</string>
+    <string name="print_history_total">集計</string>
+    <string name="print_last_total">直前の取引明細</string>
+    <string name="print_offline_send_failed">オフライン送信失敗明細</string>
+    <string name="last_settlement">前回決済</string>
+
+    <!-- InputPwdDialog -->
+    <string name="prompt_merchant_pwd">加盟店パスワードをご入力ください</string>
+    <string name="prompt_terminal_pwd">端末パスワードをご入力ください</string>
+    <string name="prompt_void_pwd">取消パスワードをご入力ください</string>
+    <string name="prompt_refund_pwd">返金パスワードをご入力ください</string>
+    <string name="prompt_adjust_pwd">調整パスワードをご入力ください</string>
+    <string name="prompt_settle_pwd">決済パスワードをご入力ください</string>
+    <string name="prompt_sys_pwd">システム管理者パスワードをご入力ください</string>
+    <string name="prompt_pin">暗証番号をご入力ください</string>R
+    <string name="prompt_no_pin">暗証番号が設定されていない場合、確認ボタンをお押しください</string>
+    <string name="prompt_offline_pin">暗証番号をご入力ください</string>
+    <string name="prompt_auth_code">認証番号をご入力ください</string>
+    <string name="prompt_lock_terminal">端末をロックしますか？</string>
+
+    <!-- SearchCardActivity -->
+    <string name="prompt_insert_swipe_wave_card">カードをスワイプ、插入、タッチしてください</string>
+    <string name="prompt_insert_card">カードを插入してください</string>
+    <string name="prompt_swipe_card">カードをスワイプしてください</string>
+    <string name="prompt_wave_card">カードをタッチしてください</string>
+    <string name="prompt_insert_swipe_card">Please Swipe/Insert Card</string>
+    <string name="prompt_please_retry">カードの読み取りに失敗しました\nもう一度、お試しください</string>
+    <string name="prompt_input_mode_params_error">カードパラメーターエラー</string>
+    <string name="prompt_ic_card_input">このカードはICカードですカードを插入してください</string>
+    <string name="prompt_card_date">カード有効期限</string>
+    <string name="prompt_card_num">カード番号</string>
+    <string name="prompt_card_date_err">日付フォーマットエラー、 もう一度、ご確認ください</string>
+    <string name="prompt_card_num_err">カード番号エラー、もう一度、ご確認ください</string>
+    <string name="prompt_card_num_manual">カード番号をご入力ください</string>
+    <string name="prompt_date_default">MM/YY</string>
+    <string name="prompt_default_searchCard_prompt">ご自身の銀行カードをご利用ください</string>
+    <string name="prompt_confirm_card_info">カード情報をご確認ください</string>
+    <string name="btn_confirm">確認</string>
+    <string name="prompt_no_sms">メッセージを送信することができませんでした</string>
+    <string name="prompt_phone_number">電話番号をご入力ください:</string>
+    <string name="prompt_email_address">メールアドレスをご入力ください:</string>
+    <string name="prompt_fall_back">カードを取出し、スワイプしてください</string>
+
+    <!-- InfosInputActivity -->
+    <string name="prompt_input_transno">対象取引の伝票番号をご入力ください</string>
+    <string name="prompt_input_tran_ref">Please Enter Trans Ref.</string>
+    <string name="prompt_input_ref1">Please Enter Reference 1</string>
+    <string name="prompt_input_ref3">Please Enter Reference 3</string>
+    <string name="prompt_input_orig_refer">取引参照番号.</string>
+    <string name="prompt_input_amount">金額:</string>
+    <string name="prompt_input_refund_amount">返金金額:</string>
+    <string name="prompt_input_auth_code">認証コード</string>
+    <string name="prompt_input_date">対象取引日</string>
+    <string name="please_input_again">もう一度、ご入力ぐださい</string>
+    <string name="prompt_date_default2">MM/DD</string>
+    <string name="prompt_get_last">確認ボタンをタップして、直前の取引を取得</string>
+    <string name="prompt_input_ipp_term">Installment #Month</string>
+
+    <!-- adjust -->
+    <string name="prompt_base_amount">金額</string>
+    <string name="prompt_tip">チップ</string>
+    <string name="prompt_ori_tips">対象チップ</string>
+    <string name="prompt_tip_not_changed">チップは変更されていません</string>
+    <string name="prompt_adjust_percent">チップパセンテージ</string>
+    <string name="prompt_new_tips">新しいチップ</string>
+    <string name="prompt_total_amount">合計金額</string>
+    <string name="prompt_tip_exceed">チップが上限を超えました</string>
+
+    <!-- query -->
+    <string name="payment_icon">支払いアイコン</string>
+    <string name="suspend_pay">支払い</string>
+    <string name="suspend_delete">消去</string>
+    <string name="delete_suspend_qr">中断されたQRを削除する</string>
+    <string name="pull_slip">Pull Slip</string>
+
+    <!-- report -->
+    <string name="select_report_type">レポートタイプを選択します</string>
+    <string name="summary_report">概略報告</string>
+    <string name="audit_report">監査報告書</string>
+    <string name="all_payment_channel">すべての支払いチャネル</string>
+    <string name="select_payment_channel">支払いチャネルを選択します</string>
+
+    <!-- CustomAlertDialog -->
+    <string name="dialog_delete">クリア</string>
+    <string name="dialog_clear">すべてクリア</string>
+    <string name="dialog_ok">確認</string>
+    <string name="dialog_cancel">中止</string>
+    <string name="dialog_sms">メッセージ</string>
+    <string name="dialog_email">メール</string>
+    <string name="dialog_enter">入力</string>
+    <string name="dialog_print">印刷</string>
+    <string name="print_qr">Print QR</string>
+
+    <string name="prompt_use_pinpad">ピンパッドをご利用ください</string>
+
+    <string name="dialog_trans_succ">取引成功</string>
+    <string name="dialog_settlement_succ">入植成功</string>
+    <string name="dialog_trans_succ_liff"><xliff:g id="SUCCESS">%1$s</xliff:g> 成功</string>
+    <string name="dialog_trans_error">取引エラー</string>
+    <string name="dialog_icc_cmd_err">ICカードコマンドエラー</string>
+    <string name="dialog_emv_no_app">ICCと端末のAIDがマッチしません</string>
+    <string name="dialog_emv_no_app_ppse_err">サポートされているアプリケーションがありません</string>
+    <string name="dialog_clss_param_err">マラメーターエラー</string>
+    <string name="dialog_clss_use_contact">他のインターフェースを利用して、取引を実行してください</string>
+    <string name="dialog_clss_declined">非接触型カードが拒否されました</string>
+    <string name="dialog_clss_try_contact">接触型カードをご利用ください</string>
+    <string name="dialog_clss_terminate">非接触型カードを中止</string>
+
+    <string name="dialog_please_select">ご選択ください:</string>
+    <string name="dialog_reset_bp60a">BP60A_Printerをリセットしました</string>
+    <!-- waiting -->
+    <string name="wait_print">印刷中&#8230;\nしばらくお待ちください</string>
+    <string name="wait_receipt_generate">レシート生成中&#8230;\nしばらくお待ちください</string>
+    <string name="wait_demo_mode">デモ モード&#8230;</string>
+    <string name="wait_initialize_net">Net初期化&#8230;</string>
+    <string name="wait_process">処理中&#8230;\nしばらくお待ちください</string>
+    <string name="wait_connect">接続中&#8230;\nしばらくお待ちください</string>
+    <string name="wait_scan">スキャン中&#8230;\nしばらくお待ちください</string>
+    <string name="wait_connect_other">バックアップホストに接続中&#8230;しばらくお待ちください</string>
+    <string name="wait_send">送信中&#8230;\nしばらくお待ちください</string>
+    <string name="wait_recv">受信中&#8230;\nしばらくお待ちください</string>
+    <string name="wait_init_device">初期化処理中&#8230;\nしばらくお待ちください</string>
+    <string name="wait_2_init_device">先に初期化を実行してください</string>
+    <string name="wait_pull_card">カードを取出してください&#8230;</string>
+    <string name="wait_remove_card">カードを取出してください&#8230;</string>
+    <string name="wait_load">読込中&#8230;\nしばらくお待ちください</string>
+    <string name="wait_self_test">セルフ検証中&#8230;</string>
+    <string name="wait_tle_not_enabled">TLE is not enabled.</string>
+
+    <!-- error -->
+
+    <string name="no_long_press">指を離してください</string>
+    <string name="err_timeout">タイムアウトしました</string>
+    <string name="err_connect">接続エラー</string>
+    <string name="err_send">送信エラー</string>
+    <string name="err_recv">受信エラー</string>
+    <string name="err_pack">圧縮エラー</string>
+    <string name="err_unpack">解凍エラー</string>
+    <string name="err_packet">不正パッケット</string>
+    <string name="err_mac">MAC解凍エラー</string>
+    <string name="err_proc_code">解凍処理コードが一致しません</string>
+    <string name="err_msg">解凍メッセージタイプが一致しません</string>
+    <string name="err_trans_amt">解凍金額エラー</string>
+    <string name="err_trace_no">解凍シリアル番号エラー</string>
+    <string name="err_stan_no">Unpack Stan NO. Error</string>
+    <string name="err_term_id">解凍端末番号エラー</string>
+    <string name="err_merch_id">解凍加盟店番号エラー</string>
+    <string name="err_no_trans">取引がありません</string>
+    <string name="err_no_succ_trans">承認した取引がありません</string>
+    <string name="err_no_failed_trans">失敗した取引がありません</string>
+    <string name="err_no_orig_trans">対象取引がありません</string>
+    <string name="err_has_voided">取引は取消されました</string>
+    <string name="err_un_voided">取引は取消できません</string>
+    <string name="err_comm_channel">通信チャンネルを開くことができませんでした</string>
+    <string name="err_host_reject">処理が拒否されました</string>
+    <string name="err_need_settle_now">取引回数が上限に達しました\n先に決済を行ってください</string>
+    <string name="err_need_settle_later">取引回数が上限に達しました\n後程決済行ってください</string>
+    <string name="err_no_free_space">ストレージが足りません,\n先に決済を行ってください</string>
+    <string name="err_unsupported_trans">サポートされていない取引です</string>
+    <string name="err_batch_up_break_need_continue">前回のバッチアップロードが完了しました\n決済を行ってバッチアップロードを続けてください</string>
+    <string name="err_undefine">原因不明エラー</string>
+    <string name="err_undefine_info">原因不明</string>
+    <string name="err_original_cardno">対象取引のカード番号と一致しません</string>
+    <string name="err_password">パスワードが不正です</string>
+    <string name="err_param">パラメーターエラー</string>
+    <string name="err_amount">金額が上限を超えました</string>
+    <string name="err_card_denied">カードが拒否されました\nカード会社に問い合わせください</string>
+    <string name="err_card_unsupported_demotion">ダウングレードはサポートされていません</string>
+    <string name="err_card_bin">カードBINフォーマットエラー</string>
+    <string name="err_settle_select_acq">加盟店管理会社をご選択ください</string>
+    <string name="err_print_paper">プリント用紙がありません\nプリント用紙を補充してください</string>
+    <string name="err_print_hot">プリンターが熱くなっています しばらくお待ちください&#8230;</string>
+    <string name="err_print_voltage">プリンターの電圧が低すぎます</string>
+    <string name="err_password_reenter">パスワードが不正です\nもう一度、ご入力ください</string>
+    <string name="err_reverse">リバースエラー, カード会社にお問い合わせください</string>
+    <string name="err_unadjusted">この取引は調整できません</string>
+    <string name="err_card_unsupported">サポートされていないカードです</string>
+    <string name="err_card_pan">カードPANエラー</string>
+    <string name="err_expired_card">利用期限が切れているカードです</string>
+    <string name="err_unsupported_func">サポートされていない機能です</string>
+    <string name="err_not_allowed">許可されていません</string>
+    <string name="err_user_cancel">取引は中止されました</string>
+    <string name="err_sms_sent_fail">メッセージを送信することができませんでした</string>
+    <string name="err_clss_preproc_fail">非接触型カードの初期処理に失敗しました</string>
+    <string name="err_invalid_emv_qr">不正なQRコードです</string>
+    <string name="err_invalid_bt_printer">不正なBluetoothプリンターです</string>
+    <string name="err_bt_print_cancel">印刷は中止されました</string>
+    <string name="err_bt_connect">Bluetooth接続エラーです</string>
+    <string name="err_tmk_download_failed">TMK download failed</string>
+    <string name="err_twk_download_failed">TWK download failed</string>
+    <string name="err_tle_keys_missing">TLE key download required</string>
+    <string name="err_tle_kcv_mismatch">TLE key KCV error</string>
+    <string name="dialog_transaction_declined">Transaction Declined</string>
+    <string name="invalid_qr_code">Invalid QR Code</string>
+    <string name="err_trans_not_found">Payment reference does not exist</string>
+
+    <string name="prompt_reverse">リバース</string>
+    <string name="prompt_err_code">エラーコード:</string>
+    <string name="unlock_hint">上にスライドしてロック解除</string>
+    <string name="prompt_open_write_settings">書き込み設定をオンにしてください</string>
+
+    <string name="set_settle">決済されていない取引があります\n先に決済してください</string>
+    <string name="set_cardHolder_name">カード保有者名</string>
+
+    <!-- Version -->
+    <string name="version">バージョン情報</string>
+    <string name="app_version">ソフトウェアバージョン番号</string>
+
+    <!-- EMV -->
+    <string name="emv_param_load">Emvパラメーターを読込中です</string>
+    <string name="emv_init_succ">Emvパラメーター初期化完了</string>
+    <string name="emv_cardno_confirm">カード番号確認</string>
+    <string name="emv_application_choose">アプリケーション選択</string>
+    <string name="emv_application_choose_again">アプリケーション選択[もう一度、ご選択ください]</string>
+    <string name="emv_input_last">最後</string>
+    <string name="emv_arrival_card">出入国カード</string>
+    <string name="emv_identity_card">身分証明書</string>
+    <string name="emv_officers_card">警察手帳</string>
+    <string name="emv_other_card">その他</string>
+    <string name="emv_passport">パスポート</string>
+    <string name="emv_interim_identity_card">臨時身分証明書</string>
+    <string name="emv_card_in_black_list">このカードは、ブラックリストに登録されているカードです</string>
+
+    <!-- Printer -->
+    <string name="print_card_check">チェック</string>
+    <string name="print_card_check_uneven">チェック不規則</string>
+    <string name="print_card_check_err">チェックエラー</string>
+    <string name="print_bt_scan">スキャン</string>
+    <string name="print_bt_print">印刷</string>
+
+    <!-- Receipt -->
+    <string name="receipt_preview">伝票プレビュー</string>
+    <string name="receipt_print">印刷</string>
+    <string name="receipt_merchant_name">加盟店名</string>
+    <string name="receipt_merchant_code">加盟店番号</string>
+    <string name="receipt_terminal_code">端末番号</string>
+    <string name="receipt_terminal_code_space">端末番号</string>
+    <string name="receipt_batch_num">バッチ番号</string>
+    <string name="receipt_batch_num_colon">バッチ番号</string>
+    <string name="receipt_batch_num_space">バッチ番号</string>
+    <string name="receipt_date">日付/時間</string>
+    <string name="receipt_failed_trans_details">失敗取引明細をアップロード</string>
+    <string name="receipt_reject_trans_details">拒否取引明細</string>
+    <string name="receipt_type">タイプ</string>
+    <string name="receipt_count">カウント</string>
+    <string name="receipt_amount">合計</string>
+    <string name="receipt_card_borrow">デビット</string>
+    <string name="receipt_card_loan">カードローン</string>
+    <string name="receipt_card_no">カード番号</string>
+    <string name="receipt_trans_type">取引区分</string>
+    <string name="receipt_trans_no">伝票番号</string>
+    <string name="receipt_card_date">有効期限</string>
+    <string name="receipt_card_issue">カード会社</string>
+    <string name="receipt_auth_code">認証番号</string>
+    <string name="receipt_card_acquirer">加盟店管理会社</string>
+    <string name="receipt_ref_no">参照</string>
+    <string name="receipt_card_organization">カードブランド:</string>
+    <string name="receipt_comment">注釈:</string>
+    <string name="receipt_orig_trans_no">対象伝票番号:</string>
+    <string name="receipt_orig_date">対象取引日:</string>
+    <string name="receipt_orig_auth_code">対象認証番号:</string>
+    <string name="receipt_orig_ref_no">対象参照コード:</string>
+    <string name="receipt_print_again">再 印 刷</string>
+    <string name="receipt_had_void">取消済み</string>
+    <string name="receipt_amount_prompt_start">取引金額が上限を超えていません</string>
+    <string name="receipt_amount_prompt_end">署名または、暗証番号を入力する必要はありません</string>
+    <string name="receipt_amount_prompt_end_sign">署名する必要はありません</string>
+    <string name="receipt_amount_prompt_end_pin">暗証番号を入力する必要はありません</string>
+    <string name="receipt_qr_signature">署名する必要はありません</string>
+    <string name="receipt_sign">-------ご署名-------</string>
+    <string name="receipt_sign_line">---------------------------------</string>
+    <string name="receipt_verify">上記取引内容を確認し、取引内容が帳簿に記入されることを同意します\nI ACKNOWLEDGE SATISFACTORY RECEIPT OF RELATIVE GOODS/SERVICE</string>
+    <string name="receipt_stub_acquire">カード会社控え</string>
+    <string name="receipt_stub_merchant">加盟店控え</string>
+    <string name="receipt_stub_user">お客様控え</string>
+    <string name="receipt_stub_customer">*** CUSTOMER COPY ***</string>
+    <string name="receipt_stub_no_refund">*** NO REFUND ***</string>
+    <string name="receipt_amount_sale">金額</string>
+    <string name="receipt_amount_tip">チップ</string>
+    <string name="receipt_amount_total">合計</string>
+    <string name="receipt_amount_base">金額</string>
+    <string name="receipt_app_code">承認番号</string>
+    <string name="receipt_voucher">レシート</string>
+
+    <!-- Settings -->
+    <string name="set_cancel_save">キャンセルして保存</string>
+    <string name="set_recv">受信中&#8230;</string>
+    <string name="set_key_success">暗号鍵の注入に成功</string>
+    <string name="set_key_fail">暗号鍵の注入に失敗</string>
+    <string name="set_system_date">システム時間設定</string>
+    <string name="config_please_input">ご入力ください:</string>
+    <string name="digits_1">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="digits_2">0123456789</string>
+    <string name="digits_3">1230</string>
+    <string name="digits_4">0123456789.</string>
+    <string name="err_config_empty_input">必須項目が入力されていません</string>
+
+    <!-- initialization -->
+    <string name="init_pwd_hint">初期化パスワード</string>
+
+    <!-- acquirer setting -->
+    <string name="acquirer">加盟店管理会社</string>
+    <string name="acq_select_all">すべて</string>
+    <string name="acq_select_hint">加盟店管理会社をご選択ください</string>
+    <string name="acq_terminal_id">端末番号</string>
+    <string name="acq_terminal_id_hint">８桁の数字</string>
+    <string name="acq_merchant_id">加盟店番号</string>
+    <string name="acq_merchant_id_hint">１５桁の数字</string>
+    <string name="acq_nii">NII</string>
+    <string name="acq_nii_hint">3桁の数字</string>
+    <string name="acq_batch_no">バッチ番号</string>
+    <string name="acq_batch_no_hint">6桁の数字</string>
+    <string name="acq_commParam">共通パラメーター</string>
+    <string name="acq_address">ホストアドレス</string>
+    <string name="acq_ip">IPアドレス</string>
+    <string name="acq_ip_hint">0.0.0.0</string>
+    <string name="acq_port">ポート番号</string>
+    <string name="acq_port_hint">10000</string>
+    <string name="acq_tle_enabled">TLE Enabled</string>
+    <string name="acq_tle_version">TLE Version</string>
+    <string name="acq_tle_nii">TLE NII</string>
+    <string name="acq_tle_kms_nii">TLE KMS NII</string>
+    <string name="acq_tle_vendor_id">TLE Vendor ID</string>
+    <string name="acq_tle_key_set_id">TLE Key set ID</string>
+    <string name="acq_tle_keys_download">TLE keys download</string>
+    <string name="acq_tle_te_id">TLE TE ID</string>
+    <string name="acq_tle_te_pin">TLE TE PIN</string>
+    <string name="acq_tle_acqid">TLE Acquirer ID</string>
+    <string name="acq_tle_sensitive_fields">TLE Sensitive fields</string>
+    <string name="alipay_terminal_id">Alipay Terminal ID</string>
+    <string name="alipay_merchant_id">Alipay Merchant ID</string>
+    <string name="alipay_acquirer">Alipay Acquirer</string>
+    <string name="wechat_terminal_id">Wechat Terminal ID</string>
+    <string name="wechat_merchant_id">Wechat Merchant ID</string>
+    <string name="wechat_acquirer">Wechat Acquirer</string>
+    <string name="tag30_terminal_id">Tag30 Terminal ID</string>
+    <string name="tag30_merchant_id">Tag30 Merchant ID</string>
+    <string name="tag30_biller_id">Tag30 Biller ID</string>
+    <string name="tag30_merchant_name">Tag30 Merchant Name</string>
+    <string name="tag30_partner_code">Tag30 Partner Code</string>
+    <string name="qrcs_terminal_id">QRCS Terminal ID</string>
+    <string name="qrcs_merchant_id">QRCS Merchant ID</string>
+    <string name="qrcs_partner_code">QRCS Partner Code</string>
+    <string name="inquiry_timeout">Inquiry Timeout</string>
+    <string name="inquiry_retries">Inquiry Retry Count</string>
+
+    <!-- issuer -->
+    <string name="issuer_select_hint">カード会社をご選択ください</string>
+    <string name="issuer_non_emv_tran_floor_limit">フロアリミット</string>
+    <string name="issuer_enable_adjust">調整</string>
+    <string name="issuer_adjust_percent">調整パーセント</string>
+    <string name="issuer_enable_offline">オフライン</string>
+    <string name="issuer_enable_expiry">有効期限外</string>
+    <string name="issuer_enable_manualPan">手動PAN入力</string>
+    <string name="issuer_check_adjust">有効期限チェック</string>
+    <string name="issuer_check_pan">PANチェック</string>
+    <string name="issuer_enable_print">プリンター</string>
+    <string name="issuer_not_emv_tran_pin_required">暗証番号必須</string>
+    <string name="issuer_enable_refund">Enable Refund</string>
+
+    <!-- Exit -->
+    <string name="please_install_neptune">Neptuneをインストールしてください</string>
+    <string name="exit_app">アプリケーションを終了しますか？</string>
+    <string name="update_param_now_or_not">今パラメーターを更新しますか？</string>
+    <string name="param_need_update_please_settle">パラメーターを更新する必要があります\n先に決済を行ってください</string>
+    <string name="param_update_fail">Parameter Update Fail, Please Check Log</string>
+    <string name="app_need_update_please_settle">アプリケーションをアップデートする必要があります\n先に決済を行ってください</string>
+    <string name="update_param">パラメーター更新</string>
+    <string name="parameter_update_success">パラメータ更新成功</string>
+    <string name="no_update_param">パラメーターが更新されていません</string>
+
+    <!-- image workaround -->
+    <string name="image_desc"> </string>
+
+    <string name="permission_rationale_storage">障害ログを保存するためには、\nストレージアクセス権限をオンにしてください</string>
+    <string name="permission_rationale_sms">ペーパーレス機能を利用するためには、\nメッセージ権限をオンにしてください</string>
+    <string name="permission_access_location">印刷機能を利用するためには、\nlocation権限をオンにしてください</string>
+
+    <string name="printer_title">プリンター</string>
+    <string name="printer_type">プリンタータイプ</string>
+    <string name="printer_ip">IPプリンター</string>
+    <string name="printer_bluetooth">Bluetoothプリンター</string>
+    <string name="printer_qr">QRコード</string>
+    <string name="printer_qr_hint">コンテンツを入力してバーコード生成</string>
+    <string name="printer_ip_hint">プリンター IPアドレス</string>
+    <string name="printer_port_hint">プリンター ポート番号</string>
+    <string name="printer_port_text">9100</string>
+    <string name="printer_type_80">80mm</string>
+    <string name="printer_type_58">58mm</string>
+    <string name="printer_image_width">イメージ幅</string>
+    <string name="printer_image_width_default">576</string>
+
+    <string name="printer_bluetooth_not_support">Bluetoothはサポートされていません</string>
+    <string name="printer_bluetooth_dlg_open">Bluetoothをオンにしてください</string>
+    <string name="printer_bluetooth_dlg_close">Bluetoothをオフにしますか？</string>
+
+    <string name="printer_test_bluetooth">Bluetooth プリンター</string>
+    <string name="printer_cancel">取消</string>
+    <string name="printer_determine">確認</string>
+    <string name="printer_allow">同意</string>
+    <string name="printer_deny">拒否</string>
+    <string name="printer_yes">はい</string>
+    <string name="printer_no">いいえ</string>
+    <string name="printer_bluetooth_dlg_close_error">Bluetoothをオフにすることができませんでした/nシステム設定をご参照ください</string>
+    <string name="printer_is_bonded">登録済みデバイス:</string>
+    <string name="printer_test_message_0">開始&#8230;</string>
+    <string name="printer_test_message_1">データ生成中&#8230;</string>
+    <string name="printer_test_message_2">ソケット設定中&#8230;</string>
+    <string name="printer_test_message_3">データ送信中&#8230;</string>
+    <string name="printer_test_message_4">アウトプットストリームを取得中&#8230;</string>
+    <string name="printer_test_message_5">ソケット解放中&#8230;</string>
+    <string name="printer_result_message_1">印刷成功</string>
+    <string name="printer_result_message_2">データ生成失敗</string>
+    <string name="printer_result_message_3">ソケット設定失敗</string>
+    <string name="printer_result_message_4">アウトプットストリーム取得失敗</string>
+    <string name="printer_result_message_5">データを送信することができませんでした</string>
+    <string name="printer_result_message_6">パラメーターがnullです</string>
+    <string name="printer_result_message_7">ソケット解放失敗</string>
+    <string name="printer_result_message_8">印刷失敗</string>
+    <string name="title_activity_config">コンフィグアクティビティ</string>
+
+    <string name="navigation_drawer_open">ナビゲーションドロワーを開く</string>
+    <string name="navigation_drawer_close">ナビゲーションドロワーを閉じる</string>
+
+    <string name="action_settings">設定</string>
+    <string name="trans_scanner">スキャナー</string>
+    <!--二维码相关-->
+    <string name="scan_text">QRコード/バーコードを枠内に収めてください</string>
+
+    <string name="leak_canary_display_activity_label">EDC リーク</string>
+    <string name="icc_error_swipe_card">カードを取出し、もう一度插入するか、スワイプしてください</string>
+    <string name="remove_read_card_error">カード情報の読込みに失敗しました\nもう一度、お試しください</string>
+    <string name="configs_left_icon">左設定アイコン</string>
+    <string name="the_right_icon_of_configs_item">右設定アイコン\' item</string>
+
+    <!-- firebase -->
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="default_notification_channel_name" translatable="true">weather</string>
+    <string name="bt_printer_status">プリンター　ステータス</string>
+
+    <!--bluetooth print-->
+    <string name="bt_scan">スキャン中</string>
+    <string name="bt_connect">接続中</string>
+    <string name="bt_print">印刷中</string>
+    <string name="bt_print_success">印刷成功</string>
+    <string name="bt_print_failed">印刷失敗</string>
+    <string name="bt_print_completed">印刷完了</string>
+    <string name="bt_connect_success">接続成功</string>
+    <string name="bt_connect_failed">接続失敗</string>
+    <string name="bt_scan_completed">スキャン完了</string>
+    <string name="bt_toast_scanning">先にスキャンを行ってください</string>
+    <string name="bt_status_open">先にBluetoothをオンにしてください</string>
+    <string name="bt_no_device">利用可能なデバイスがありません</string>
+
+    <string name="search_test_track2">5413330089020037=2512101050930812</string>
+    <string name="camera_permission">設定にてカメラのアクセス権限をオンにしてください.</string>
+    <string name="aeVersion" >AMEX バージョン.</string>
+    <string name="dpasVersion">DPAS バージョン.</string>
+    <string name="emvVersion">EMV バージョン.</string>
+    <string name="entryVersion">ENTRY バージョン.</string>
+    <string name="jcbVersion">JCB バージョン.</string>
+    <string name="mcVersion">MC バージョン.</string>
+    <string name="qpbocVersion">QPBOC バージョン.</string>
+    <string name="rupayVersion">RUPAY バージョン.</string>
+    <string name="waveVersion">WAVE バージョン.</string>
+    <string name="neptuneVersion">NeptuneLiteApi バージョンNO.</string>
+    <string name="glCommVersion">GLComm バージョンNO.</string>
+    <string name="glExprinterVersion">GLExtPrinter バージョンNO.</string>
+    <string name="glPackerVersion">GLPacker バージョンNO.</string>
+    <string name="glImgProcessingVersion">GLImgProcessing バージョンNO.</string>
+    <string name="glUtilsVersion">GLUtils バージョンNO.</string>
+    <string name="glBaiFuTongVersion">GLBaiFuTong バージョンNO.</string>
+    <string name="baselinkApiVersion">BaseLinkApi バージョンNO.</string>
+
+    <string name="create_log">新しいログを作る</string>
+    <string name="err_operation">APPは更新され、動作を許可しない</string>
+
+    <string name="err_card_bin_file_format_error">CardBinファイル形式エラー!</string>
+    <string name="err_card_bin_file_not_exit">CardBinファイル終了!</string>
+    <string name="err_param_list_empty">パラメータが空です!</string>
+    <string name="err_insert_param_list">パラメータの挿入に失敗しました!</string>
+    <string name="err_parse_param_list">パラメータの解析に失敗しました!</string>
+    <string name="err_backup_param_list">パラメータのバックアップに失敗しました!</string>
+    <string name="err_is_not_numeric"> 数字ではありません!</string>
+    <string name="swith_demo_mode">Switch to demo mode</string>
+
+    <!-- DCC -->
+    <string name="dcc_title">Dynamic currency</string>
+    <string name="dcc_please_select_curr">Please select currency</string>
+    <string name="sale_pay">PAY</string>
+    <string name="activity_details_installment_terms">Installment Term</string>
+    <string name="installment_product_code">Product Code</string>
+    <string name="installment_product_code_hint">(9 digits)</string>
+    <string name="installment_sn">Serial Number</string>
+    <string name="installment_sn_hint">(20 digits)</string>
+    <string name="install_0">Installment 0%</string>
+    <string name="install_fix">Installment Fixed Rate</string>
+    <string name="install_special">Installment Special</string>
+
+    <string name="redeem_normal">Redemption</string>
+    <string name="redeem_fix_rate">Redemption</string>
+    <string name="redeem_special">Specific Product</string>
+    <string name="redeem_voucher">Voucher</string>
+    <string name="redeem_point_credit">Point+Credit</string>
+    <string name="redeem_point">Redeem Point</string>
+    <string name="redeem_discount">Discount%</string>
+    <string name="point_enquiry">Point Inquiry</string>
+    <string name="redeem_quantity">Quantity</string>
+    <string name="redeem_quantity_hint">(4 digits)</string>
+    <string name="history_detail_point">Point</string>
+    <string name="tag30_register">Register Tag30</string>
+    <string name="qrcs_register">Register QRCS</string>
+    <string name="err_qrcs_register">Register QRCS failed</string>
+    <string name="err_tag30_register">Register Tag30 failed</string>
+    <string name="credit_total">Credit Total</string>
+    <string name="settle_suspended">Inquiry suspended QR?</string>
+    <string name="print_customer_copy">Print Customer Copy</string>
+    <string name="question_are_you_sure">Are you sure?</string>
+    <string name="exit_application">Exit app</string>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!--parameters of Key ↓-->
+    <string-array name="config_menu_key_title">
+        <item>@string/keyManage_menu_tmk_index</item>
+        <item>@string/keyManage_menu_tmk_index_no</item>
+        <item>@string/keyManage_menu_tmk_value</item>
+        <item>@string/keyManage_menu_tpk_value</item>
+        <item>@string/keyManage_menu_tak_value</item>
+    </string-array>
+    <!--config the item type:0 is normal,1 is switch-->
+    <integer-array name="config_menu_key_type_switch">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </integer-array>
+    <!--config the item value:1 has value;0 has no value-->
+    <integer-array name="config_menu_key_has_value">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </integer-array>
+    <!--parameters of key ↑-->
+</resources>

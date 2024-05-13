@@ -1,0 +1,1 @@
+-keep class com.pax.poslib.gl.convert.**{*;}

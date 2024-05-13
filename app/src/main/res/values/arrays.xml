@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- DO NOT TRANSLATE THIS FILE -->
+
+<resources>
+
+    <!-- 交易管理 ,交易开关控制,传统类交易 -->
+    <string name="lan">LAN</string>
+    <string name="mobile">MOBILE</string>
+    <string name="wifi">WIFI</string>
+    <string name="demo">DEMO</string>
+
+    <string-array name="commParam_menu_comm_mode_list_entries">
+        <item>@string/mobile</item>
+        <item>@string/wifi</item>
+        <item>@string/demo</item>
+    </string-array>
+    <string-array name="commParam_menu_comm_mode_values_list_entries">
+        <item>@string/mobile</item>
+        <item>@string/wifi</item>
+        <item>@string/demo</item>
+    </string-array>
+
+    <string name="NO_SSL">NO SSL</string>
+    <string name="SSL">SSL</string>
+    <string-array name="acq_ssl_type_list_entries">
+        <item>@string/NO_SSL</item>
+        <item>@string/SSL</item>
+    </string-array>
+
+    <string-array name="edc_printer_type_entries">
+        <item>Internal</item>
+        <item>BP60A_Printer</item>
+    </string-array>
+    <string-array name="edc_ped_mode_entries">
+        <item>Internal</item>
+        <item>ExternalTypeA</item>
+        <item>ExternalTypeB</item>
+        <item>ExternalTypeC</item>
+    </string-array>
+    <string-array name="edc_clss_mode_entries">
+        <item>Internal</item>
+        <item>External</item>
+        <item>Both Internal And External</item>
+    </string-array>
+    <string-array name="edc_connect_time_entries">
+        <item>30</item>
+        <item>60</item>
+        <item>90</item>
+        <item>120</item>
+    </string-array>
+
+    <string name="SET_1">Set 1</string>
+    <string name="SET_2">Set 2</string>
+    <string name="SET_3">Set 3</string>
+    <string name="SET_4">Set 4</string>
+    <string name="SET_5">Set 5</string>
+    <string name="SET_6">Set 6</string>
+    <string name="SET_7">Set 7</string>
+    <string name="SET_8">Set 8</string>
+    <string name="SET_9">Set 9</string>
+    <string name="SET_10">Set 10</string>
+    <string-array name="acq_tls_key_set_list_entries">
+        <item>@string/SET_1</item>
+        <item>@string/SET_2</item>
+        <item>@string/SET_3</item>
+        <item>@string/SET_4</item>
+        <item>@string/SET_5</item>
+        <item>@string/SET_6</item>
+        <item>@string/SET_7</item>
+        <item>@string/SET_8</item>
+        <item>@string/SET_9</item>
+        <item>@string/SET_10</item>
+    </string-array>
+
+    <!-- 通讯参数的wifi -->
+    <string-array name="wifi_status">
+        <item>@string/wifi_scanning</item>
+        <item>@string/wifi_connecting</item>
+        <item>@string/wifi_authenticating</item>
+        <item>@string/wifi_getting_ip</item>
+        <item>@string/wifi_connected</item>
+        <item>@string/wifi_paused</item>
+        <item>@string/wifi_disconnecting</item>
+        <item>@string/wifi_disconnected</item>
+        <item>@string/wifi_failed</item>
+    </string-array>
+
+    <string name="keyManage_menu_des">des</string>
+    <string name="keyManage_menu_3des">3des</string>
+
+    <string-array name="keyManage_menu_key_des_type_list_entries">
+        <item>@string/keyManage_menu_des</item>
+        <item>@string/keyManage_menu_3des</item>
+    </string-array>
+
+    <!--parameters of Other ↓-->
+    <string-array name="config_menu_other_title">
+        <item>@string/om_clearTrade_menu_reversal</item>
+        <item>@string/om_clearTrade_menu_clear_batch</item>
+        <item>@string/om_clearTrade_menu_key</item>
+        <item>@string/om_paramPrint_menu_print_aid_para</item>
+        <item>@string/om_paramPrint_menu_print_capk_para</item>
+        <item>@string/go_system_setting_date</item>
+        <item>@string/acq_tle_keys_download</item>
+        <item>@string/tag30_register</item>
+        <item>@string/qrcs_register</item>
+        <item>@string/exit_application</item>
+    </string-array>
+
+    <integer-array name="config_menu_other_icon">
+        <item>@drawable/app_other</item>
+        <item>@drawable/app_other</item>
+        <item>@drawable/app_other</item>
+        <item>@drawable/app_other</item>
+        <item>@drawable/app_other</item>
+        <item>@drawable/app_other</item>
+        <item>@drawable/key_icon</item>
+        <item>@drawable/app_other</item>
+        <item>@drawable/app_other</item>
+        <item>@drawable/system_icon</item>
+    </integer-array>
+    <!--parameters of Other ↑-->
+</resources>

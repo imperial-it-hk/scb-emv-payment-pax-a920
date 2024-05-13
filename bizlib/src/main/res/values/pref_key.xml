@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><!-- DO NOT TRANSLATE THIS FILE --><!-- DO NOT TRANSLATE THIS FILE --><!-- DO NOT TRANSLATE THIS FILE -->
+<resources>
+
+    <string name="EDC_PED_MODE">EDC_PED_MODE</string>
+    <string name="EDC_CLSS_MODE">EDC_CLSS_MODE</string>
+    <string name="MK_INDEX">MK_INDEX</string>
+    <string name="RESULT_READER_TYPE">result_reader_type</string>
+
+    <string name="IS_PAXSTORE_UPDATE_PARAM_EXCEPTION">IS_PAXSTORE_UPDATE_PARAM_EXCEPTION</string>
+    <string name="PAXSTORE_UPDATE_PARAM_EXCEPTION">PAXSTORE_UPDATE_PARAM_EXCEPTION</string>
+    <string name="IS_PARSE_PARAM_EXCEPTION">IS_PARSE_PARAM_EXCEPTION</string>
+    <string name="PARSE_PARAM_EXCEPTION">PARSE_PARAM_EXCEPTION</string>
+    <string name="demo">DEMO</string>
+    <string name="QUICK_PASS_TRANS_PIN_FREE_AMOUNT">QUICK_PASS_TRANS_PIN_FREE_AMOUNT</string>
+    <string name="QUICK_PASS_TRANS_SIGN_FREE_AMOUNT">QUICK_PASS_TRANS_SIGN_FREE_AMOUNT</string>
+
+    <string name="COMM_TYPE">COMM_TYPE</string>
+
+</resources>

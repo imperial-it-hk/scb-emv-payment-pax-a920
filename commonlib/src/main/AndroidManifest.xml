@@ -1,0 +1,6 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.evp.commonlib" >
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <!-- force open the bluetooth -->
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+</manifest>

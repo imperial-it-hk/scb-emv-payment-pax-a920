@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#0059a1</color>
+    <color name="primary_dark">#0059a1</color>
+    <color name="primary_light">#C5CAE9</color>
+    <!--
+    <color name="accent">#03A9F4</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    -->
+    <color name="accent">@android:color/holo_red_light</color>
+    <color name="accent_amount">@android:color/holo_green_light</color>
+    <color name="primary_text_light">@android:color/primary_text_light</color>
+    <color name="secondary_text_light">@android:color/secondary_text_light</color>
+    <color name="primary_text_dark">@android:color/primary_text_dark</color>
+    <color name="secondary_text_dark">@android:color/secondary_text_dark</color>
+    <color name="default_confirm_text_btn">#138F2D</color>
+    <color name="default_grey_cancel_btn">@android:color/primary_text_light</color>
+    <color name="default_red_cancel_btn">#FC0808</color>
+
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#BDBDBD</color>
+
+    <color name="background">@android:color/background_light</color>
+
+
+    <color name="colorPrimary">#0059a1</color>
+    <color name="colorPrimaryDark">#0059a1</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorRipple">#803f51b5</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">@android:color/white</color>
+
+    <color name="special_key_pressed_color">#ECEEF4</color>
+    <color name="special_key_normal_color">#F3F5FF</color>
+    <color name="special_header_layout_color">#181818</color>
+    <!--二维码扫描相关-->
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+
+    <!--configs-->
+    <color name="color_configs_title">#333333</color>
+    <color name="color_config_item_value">#888888</color>
+    <color name="color_configs_line">#bbbbbb</color>
+    <color name="color_configs_line_seg">#e3e3e3</color>
+    <color name="color_configs_item_press">#cccccc</color>
+</resources>

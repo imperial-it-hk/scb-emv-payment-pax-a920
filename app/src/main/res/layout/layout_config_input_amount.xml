@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ /*
+  ~  * ============================================================================
+  ~  * PAX Computer Technology(Shenzhen) CO., LTD PROPRIETARY INFORMATION
+  ~  * This software is supplied under the terms of a license agreement or nondisclosure
+  ~  * agreement with PAX Computer Technology(Shenzhen) CO., LTD and may not be copied or
+  ~  * disclosed except in accordance with the terms in that agreement.
+  ~  *     Copyright (C) $YEAR-? PAX Computer Technology(Shenzhen) CO., LTD All rights reserved.
+  ~  * Description:
+  ~  * Revision History:
+  ~  * Date	             Author	                Action
+  ~  * 20181213   	     ligq           	Create/Add/Modify/Delete
+  ~  * ============================================================================
+  ~  */
+  -->
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.evp.view.keyboard.CustomKeyboardEditText
+        android:id="@+id/cke_config_input_content"
+        android:layout_width="0dp"
+        android:layout_height="?actionBarSize"
+        android:layout_gravity="center_vertical"
+        android:hint=""
+        android:inputType="text"
+        android:textColor="@color/primary_text_light"
+        android:textSize="@dimen/font_edit_text"
+        app:xml="@xml/amount_keyboard_standard"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>

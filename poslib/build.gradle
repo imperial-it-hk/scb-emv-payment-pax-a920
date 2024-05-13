@@ -1,0 +1,46 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion rootProject.compileSdkVersion
+    buildToolsVersion rootProject.buildToolsVersion
+
+    defaultConfig {
+        minSdkVersion rootProject.minSdkVersion
+        targetSdkVersion rootProject.targetSdkVersion
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles 'consumer-rules.pro'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        autoTest{
+
+        }
+        debug{
+
+        }
+    }
+
+}
+repositories{
+    flatDir {
+        dirs 'libs'
+    }
+}
+dependencies {
+    api fileTree(include: ['*.jar'], dir: 'libs')
+    api(name: 'nativetouchevent-release', ext: 'aar')
+    testImplementation "junit:junit:$rootProject.junit"
+    testImplementation "org.mockito:mockito-all:$rootProject.mockito"
+    testImplementation "org.hamcrest:hamcrest-all:$rootProject.hamcrest"
+    testImplementation "androidx.arch.core:core-testing:$rootProject.coreTesting"
+    androidTestImplementation "androidx.test:runner:$rootProject.runner"
+    androidTestImplementation "androidx.test.espresso:espresso-core:$rootProject.espresso"
+    androidTestImplementation "junit:junit:$rootProject.junit"
+    api project(':commonlib')
+}

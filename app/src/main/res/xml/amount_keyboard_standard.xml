@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?><!-- 可以直接输入的字符(如0-9,.)，他们在键盘映射xml中的android:codes值必须配置为该字符的ASCII码 -->
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:keyWidth="33.3%p"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"
+    android:keyHeight="7.5%p">
+    <Row>
+        <Key
+            android:codes="49"
+            android:keyLabel="@string/num_1" />
+        <Key
+            android:codes="50"
+            android:keyLabel="@string/num_2" />
+        <Key
+            android:codes="51"
+            android:keyLabel="@string/num_3" />
+    </Row>
+    <Row>
+        <Key
+            android:codes="52"
+            android:keyLabel="@string/num_4" />
+        <Key
+            android:codes="53"
+            android:keyLabel="@string/num_5" />
+        <Key
+            android:codes="54"
+            android:keyLabel="@string/num_6" />
+    </Row>
+    <Row>
+        <Key
+            android:codes="55"
+            android:keyLabel="@string/num_7" />
+        <Key
+            android:codes="56"
+            android:keyLabel="@string/num_8" />
+        <Key
+            android:codes="57"
+            android:keyLabel="@string/num_9" />
+    </Row>
+    <Row>
+        <Key
+            android:codes="-3"
+            android:keyLabel="@string/dialog_cancel" />
+        <Key
+            android:codes="48"
+            android:keyLabel="@string/num_0" />
+        <Key
+            android:codes="-5"
+            android:keyLabel="@string/dialog_delete"
+            android:keyEdgeFlags="right"
+            android:isRepeatable="true" />
+    </Row>
+</Keyboard>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ /*
+  ~  * ============================================================================
+  ~  * PAX Computer Technology(Shenzhen) CO., LTD PROPRIETARY INFORMATION
+  ~  * This software is supplied under the terms of a license agreement or nondisclosure
+  ~  * agreement with PAX Computer Technology(Shenzhen) CO., LTD and may not be copied or
+  ~  * disclosed except in accordance with the terms in that agreement.
+  ~  *     Copyright (C) $YEAR-? PAX Computer Technology(Shenzhen) CO., LTD All rights reserved.
+  ~  * Description:
+  ~  * Revision History:
+  ~  * Date	             Author	                Action
+  ~  * 20181203   	     ligq           	Create/Add/Modify/Delete
+  ~  * ============================================================================
+  ~  */
+  -->
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+
+            <ImageView
+                android:id="@+id/iv_toolbar_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:background="?android:attr/selectableItemBackground"
+                android:contentDescription="@string/btn_confirm"
+                android:padding="15dp"
+                android:src="@drawable/toolbar_ok_selector"
+                android:visibility="gone" />
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

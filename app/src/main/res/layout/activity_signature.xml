@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- 显示金额 -->
+
+    <LinearLayout
+        android:id="@+id/trans_amount_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/space_horizontal"
+        android:layout_marginTop="@dimen/space_vertical"
+        android:layout_marginEnd="@dimen/space_horizontal"
+        android:layout_marginBottom="@dimen/space_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/trans_amount_lbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="bottom"
+            android:text="@string/history_detail_amount"
+            android:textColor="@color/primary_text_light"
+            android:textSize="@dimen/font_size_prompt" />
+
+        <TextView
+            android:id="@+id/trans_amount_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="bottom|end"
+            android:text="@string/amount_default"
+            android:textColor="@color/primary_text_light"
+            android:textSize="@dimen/font_size_value" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/trans_point_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/space_horizontal"
+        android:layout_marginTop="@dimen/space_vertical"
+        android:layout_marginEnd="@dimen/space_horizontal"
+        android:layout_marginBottom="@dimen/space_vertical"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/trans_point_lbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="bottom"
+            android:text="@string/history_detail_point"
+            android:textColor="@color/primary_text_light"
+            android:textSize="@dimen/font_size_prompt" />
+
+        <TextView
+            android:id="@+id/trans_point_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="bottom|end"
+            android:text="@string/amount_default"
+            android:textColor="@color/primary_text_light"
+            android:textSize="@dimen/font_size_value" />
+    </LinearLayout>
+
+    <View style="@style/LongLine" />
+
+    <RelativeLayout
+        android:id="@+id/writeUserNameSpace"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/clear_btn"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="130dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/cancelbtn"
+            android:text="@string/signature_clear"
+            android:textColor="@color/default_red_cancel_btn"
+            android:textSize="@dimen/btn" />
+
+        <Button
+            android:id="@+id/confirm_btn"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="130dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/confirmbtn"
+            android:text="@string/dialog_ok"
+            android:textColor="@color/default_confirm_text_btn"
+            android:textSize="@dimen/btn" />
+    </LinearLayout>
+
+</LinearLayout>
